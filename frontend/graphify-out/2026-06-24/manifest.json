@@ -1,0 +1,322 @@
+{
+  "package.json": {
+    "mtime": 1781862719.135136,
+    "ast_hash": "1fb299d55cc01158a0fd6303d5581751",
+    "semantic_hash": "1fb299d55cc01158a0fd6303d5581751"
+  },
+  "postcss.config.js": {
+    "mtime": 1781678428.8519104,
+    "ast_hash": "ef3ba2a81ba19f8ea5ddf625521e96f0",
+    "semantic_hash": "ef3ba2a81ba19f8ea5ddf625521e96f0"
+  },
+  "src/App.tsx": {
+    "mtime": 1781784769.0729337,
+    "ast_hash": "d331f014e186c248118334b964ac648e",
+    "semantic_hash": "d331f014e186c248118334b964ac648e"
+  },
+  "src/components/ProtectedRoute.tsx": {
+    "mtime": 1781762650.0517418,
+    "ast_hash": "cbd854fd5919cd8c8c7bef9f518cfbc3",
+    "semantic_hash": "cbd854fd5919cd8c8c7bef9f518cfbc3"
+  },
+  "src/components/billing/AnalyticsWidget.tsx": {
+    "mtime": 1781788461.1901493,
+    "ast_hash": "a38ece3ae24fec5c530f9b9b6e4611c8",
+    "semantic_hash": "a38ece3ae24fec5c530f9b9b6e4611c8"
+  },
+  "src/components/billing/BarcodeScanner.tsx": {
+    "mtime": 1781693103.7434187,
+    "ast_hash": "80c262a1ba95f65d82b4d630ceddbe5e",
+    "semantic_hash": "80c262a1ba95f65d82b4d630ceddbe5e"
+  },
+  "src/components/billing/CustomerPanel.tsx": {
+    "mtime": 1781788477.1450036,
+    "ast_hash": "dbe1e409bfce2e6b2f615e76b7aafcf7",
+    "semantic_hash": "dbe1e409bfce2e6b2f615e76b7aafcf7"
+  },
+  "src/components/billing/DoctorDetailsModal.tsx": {
+    "mtime": 1782219428.7852004,
+    "ast_hash": "50773469fddd7d5de3f134b12fdc5f3c",
+    "semantic_hash": "50773469fddd7d5de3f134b12fdc5f3c"
+  },
+  "src/components/billing/HoldBillsModal.tsx": {
+    "mtime": 1781788513.3376453,
+    "ast_hash": "8c84c37a07130dec70dee145883c584f",
+    "semantic_hash": "8c84c37a07130dec70dee145883c584f"
+  },
+  "src/components/billing/MedicineInsightsPanel.tsx": {
+    "mtime": 1782203000.8552203,
+    "ast_hash": "3b0070e4aaaf2bf88294f6a6f21cb816",
+    "semantic_hash": "3b0070e4aaaf2bf88294f6a6f21cb816"
+  },
+  "src/components/billing/PatientDetailsModal.tsx": {
+    "mtime": 1782213015.879278,
+    "ast_hash": "8bad1b006907cd1752f756bd822c588a",
+    "semantic_hash": "8bad1b006907cd1752f756bd822c588a"
+  },
+  "src/components/billing/PharmacyCustomerPanel.tsx": {
+    "mtime": 1781846803.4686656,
+    "ast_hash": "3bcfcb03579d4c0292d551dfd3a1ba9c",
+    "semantic_hash": "3bcfcb03579d4c0292d551dfd3a1ba9c"
+  },
+  "src/components/billing/PrintInvoice.tsx": {
+    "mtime": 1782202050.5123367,
+    "ast_hash": "aa35f92e93aafa7cca7efc0b1691bd89",
+    "semantic_hash": "aa35f92e93aafa7cca7efc0b1691bd89"
+  },
+  "src/components/billing/RecentBillsModal.tsx": {
+    "mtime": 1781846897.4619052,
+    "ast_hash": "64c20afc6557d230d685d7525f7a6c8f",
+    "semantic_hash": "64c20afc6557d230d685d7525f7a6c8f"
+  },
+  "src/components/billing/ReturnModal.tsx": {
+    "mtime": 1781788498.2684674,
+    "ast_hash": "c7ff3c9790534c2bbcfd16e3dd5f45ee",
+    "semantic_hash": "c7ff3c9790534c2bbcfd16e3dd5f45ee"
+  },
+  "src/components/billing/SmartSuggestions.tsx": {
+    "mtime": 1781788528.148226,
+    "ast_hash": "d82f414172ec868964546cbcddf5ade6",
+    "semantic_hash": "d82f414172ec868964546cbcddf5ade6"
+  },
+  "src/components/common/AICopilot.tsx": {
+    "mtime": 1781678713.0458872,
+    "ast_hash": "6c8e54e91bb1da830a5689c050fd6247",
+    "semantic_hash": "6c8e54e91bb1da830a5689c050fd6247"
+  },
+  "src/components/common/CommandPalette.tsx": {
+    "mtime": 1781678682.481639,
+    "ast_hash": "7565783e0ba613cc2065c525454bd8c5",
+    "semantic_hash": "7565783e0ba613cc2065c525454bd8c5"
+  },
+  "src/components/common/ConfirmDialog.tsx": {
+    "mtime": 1781768779.7296016,
+    "ast_hash": "25f7e299094987b91d735f9058d1cb8a",
+    "semantic_hash": "25f7e299094987b91d735f9058d1cb8a"
+  },
+  "src/components/common/Modal.tsx": {
+    "mtime": 1781768777.5872805,
+    "ast_hash": "a4d004af17b859aa685615fc76ee2ca4",
+    "semantic_hash": "a4d004af17b859aa685615fc76ee2ca4"
+  },
+  "src/components/common/Toast.tsx": {
+    "mtime": 1781768775.5255654,
+    "ast_hash": "e090e430dc37b266ad4590d90bab7788",
+    "semantic_hash": "e090e430dc37b266ad4590d90bab7788"
+  },
+  "src/components/customers/CustomerForm.tsx": {
+    "mtime": 1781775387.2900462,
+    "ast_hash": "24cdcd12e9cdeb6bcede16034a837c41",
+    "semantic_hash": "24cdcd12e9cdeb6bcede16034a837c41"
+  },
+  "src/components/inventory/MedicineForm.tsx": {
+    "mtime": 1781775376.7357605,
+    "ast_hash": "a8459d146418b1f3f6bf18dda25659fb",
+    "semantic_hash": "a8459d146418b1f3f6bf18dda25659fb"
+  },
+  "src/components/layout/BillingSubSidebar.tsx": {
+    "mtime": 1782122276.8711493,
+    "ast_hash": "87eed109fc84a01e43162eb9ed7d572f",
+    "semantic_hash": "87eed109fc84a01e43162eb9ed7d572f"
+  },
+  "src/components/layout/Layout.tsx": {
+    "mtime": 1782121593.8788543,
+    "ast_hash": "55359ee88b0aab685bc52ec0c1f7f34f",
+    "semantic_hash": "55359ee88b0aab685bc52ec0c1f7f34f"
+  },
+  "src/components/layout/Sidebar.tsx": {
+    "mtime": 1781682214.9875858,
+    "ast_hash": "6622d29f53831843291cacf6ec5e0829",
+    "semantic_hash": "6622d29f53831843291cacf6ec5e0829"
+  },
+  "src/components/layout/Topbar.tsx": {
+    "mtime": 1781768653.9974816,
+    "ast_hash": "53317cca0dffc50fdee2e870c5f4ffac",
+    "semantic_hash": "53317cca0dffc50fdee2e870c5f4ffac"
+  },
+  "src/counter.ts": {
+    "mtime": 1781678368.9985175,
+    "ast_hash": "f901580c2252331130bb4d13c0cd858b",
+    "semantic_hash": "f901580c2252331130bb4d13c0cd858b"
+  },
+  "src/data/globalCatalog.ts": {
+    "mtime": 1781693083.8484063,
+    "ast_hash": "88a36764a7d95d628ba64c7852f7b103",
+    "semantic_hash": "88a36764a7d95d628ba64c7852f7b103"
+  },
+  "src/data/mockData.ts": {
+    "mtime": 1781694681.0560677,
+    "ast_hash": "49427be7e3e858c61ab2de3f392ad5f8",
+    "semantic_hash": "49427be7e3e858c61ab2de3f392ad5f8"
+  },
+  "src/hooks/useBilling.ts": {
+    "mtime": 1781788433.7616389,
+    "ast_hash": "fc2c7e554b9de684d449b4e167e7d75c",
+    "semantic_hash": "fc2c7e554b9de684d449b4e167e7d75c"
+  },
+  "src/hooks/useBillingDraft.ts": {
+    "mtime": 1781788546.3300803,
+    "ast_hash": "b1dcd5eb5529dd88ef0f2fbc7e536f19",
+    "semantic_hash": "b1dcd5eb5529dd88ef0f2fbc7e536f19"
+  },
+  "src/hooks/useBillingKeyboard.ts": {
+    "mtime": 1781788447.44617,
+    "ast_hash": "e94850c9fec7c091c5e5dfca18783f34",
+    "semantic_hash": "e94850c9fec7c091c5e5dfca18783f34"
+  },
+  "src/hooks/useCategories.ts": {
+    "mtime": 1781775289.3628573,
+    "ast_hash": "c3e70fadea5b2dc117e7ecf802c97502",
+    "semantic_hash": "c3e70fadea5b2dc117e7ecf802c97502"
+  },
+  "src/hooks/useCountUp.ts": {
+    "mtime": 1781678505.4323652,
+    "ast_hash": "c4c5d7a1170f1e18cf0acceb314f4224",
+    "semantic_hash": "c4c5d7a1170f1e18cf0acceb314f4224"
+  },
+  "src/hooks/useCustomers.ts": {
+    "mtime": 1781775196.9633164,
+    "ast_hash": "d1c43bf999c08aa9c6e00377dcf9a4cd",
+    "semantic_hash": "d1c43bf999c08aa9c6e00377dcf9a4cd"
+  },
+  "src/hooks/useMedicines.ts": {
+    "mtime": 1781776362.167545,
+    "ast_hash": "c4692257a01bc199c425b68f83b07efc",
+    "semantic_hash": "c4692257a01bc199c425b68f83b07efc"
+  },
+  "src/hooks/usePurchases.ts": {
+    "mtime": 1781775289.3730075,
+    "ast_hash": "44f1e88459f24d6e7b83eba313e93fd5",
+    "semantic_hash": "44f1e88459f24d6e7b83eba313e93fd5"
+  },
+  "src/hooks/useSuppliers.ts": {
+    "mtime": 1781775289.3740857,
+    "ast_hash": "952c292063b5fe2e350b102c1a35c250",
+    "semantic_hash": "952c292063b5fe2e350b102c1a35c250"
+  },
+  "src/hooks/useToast.ts": {
+    "mtime": 1781768771.0975952,
+    "ast_hash": "16e583ff5737f5875336a8910175c024",
+    "semantic_hash": "16e583ff5737f5875336a8910175c024"
+  },
+  "src/lib/api.ts": {
+    "mtime": 1781762575.1847892,
+    "ast_hash": "9c56b41494f8045fb113f2a6d0d99b28",
+    "semantic_hash": "9c56b41494f8045fb113f2a6d0d99b28"
+  },
+  "src/main.ts": {
+    "mtime": 1781678369.0064974,
+    "ast_hash": "4ec08956ecf0995f83916143c866c5c2",
+    "semantic_hash": "4ec08956ecf0995f83916143c866c5c2"
+  },
+  "src/main.tsx": {
+    "mtime": 1781678875.4786756,
+    "ast_hash": "787e5a07efeb2bf6209d5937195f2f68",
+    "semantic_hash": "787e5a07efeb2bf6209d5937195f2f68"
+  },
+  "src/pages/AICenter.tsx": {
+    "mtime": 1781697215.0588672,
+    "ast_hash": "1cab683385c0ce6e720f7a073c658ecf",
+    "semantic_hash": "1cab683385c0ce6e720f7a073c658ecf"
+  },
+  "src/pages/Billing.tsx": {
+    "mtime": 1782219724.7437694,
+    "ast_hash": "bf8dc21077a11e8b78d9c31f2b467d82",
+    "semantic_hash": "bf8dc21077a11e8b78d9c31f2b467d82"
+  },
+  "src/pages/Customers.tsx": {
+    "mtime": 1781775435.3066943,
+    "ast_hash": "f80d4825685c4409c06c6a23f3890786",
+    "semantic_hash": "f80d4825685c4409c06c6a23f3890786"
+  },
+  "src/pages/Dashboard.tsx": {
+    "mtime": 1781765912.7457335,
+    "ast_hash": "1dede053a4ae6e65ea053e80ec142ee4",
+    "semantic_hash": "1dede053a4ae6e65ea053e80ec142ee4"
+  },
+  "src/pages/Inventory.tsx": {
+    "mtime": 1781789872.3524458,
+    "ast_hash": "bbc706344c57321de99a12bea4d41a5a",
+    "semantic_hash": "bbc706344c57321de99a12bea4d41a5a"
+  },
+  "src/pages/Login.tsx": {
+    "mtime": 1781762643.9126444,
+    "ast_hash": "471f3f5a2788aebffaf714083fa68a67",
+    "semantic_hash": "471f3f5a2788aebffaf714083fa68a67"
+  },
+  "src/pages/PrintInvoicePage.tsx": {
+    "mtime": 1781857635.0837762,
+    "ast_hash": "37542775baa8c511248fc0ba481c1084",
+    "semantic_hash": "37542775baa8c511248fc0ba481c1084"
+  },
+  "src/pages/Purchases.tsx": {
+    "mtime": 1781769506.5096793,
+    "ast_hash": "0f213767e0ebb366254e3ff4a9fce486",
+    "semantic_hash": "0f213767e0ebb366254e3ff4a9fce486"
+  },
+  "src/pages/Register.tsx": {
+    "mtime": 1781762644.0317197,
+    "ast_hash": "c0393f2b9424de529f38bc5e82b594e9",
+    "semantic_hash": "c0393f2b9424de529f38bc5e82b594e9"
+  },
+  "src/pages/Reports.tsx": {
+    "mtime": 1781769530.2115586,
+    "ast_hash": "195709adfc887d3cfd1a517b9a6a21f6",
+    "semantic_hash": "195709adfc887d3cfd1a517b9a6a21f6"
+  },
+  "src/pages/Sales.tsx": {
+    "mtime": 1781769311.498114,
+    "ast_hash": "fdc2f6e4f737a38e221fcffb9e741712",
+    "semantic_hash": "fdc2f6e4f737a38e221fcffb9e741712"
+  },
+  "src/pages/Settings.tsx": {
+    "mtime": 1781785625.8339071,
+    "ast_hash": "fb143eae7160a994d4dbefaf02ff2475",
+    "semantic_hash": "fb143eae7160a994d4dbefaf02ff2475"
+  },
+  "src/pages/Stores.tsx": {
+    "mtime": 1781679506.178311,
+    "ast_hash": "d368e9b6a5fa243e1088202e92599d68",
+    "semantic_hash": "d368e9b6a5fa243e1088202e92599d68"
+  },
+  "src/store/useAppStore.ts": {
+    "mtime": 1781867449.6469326,
+    "ast_hash": "a2e73d44c704c2bdfd10edf10121da8e",
+    "semantic_hash": "a2e73d44c704c2bdfd10edf10121da8e"
+  },
+  "src/store/useBillingStore.ts": {
+    "mtime": 1781867438.561851,
+    "ast_hash": "34d383510a2163191f470b5a75edc27a",
+    "semantic_hash": "34d383510a2163191f470b5a75edc27a"
+  },
+  "src/types/index.ts": {
+    "mtime": 1781678480.3606331,
+    "ast_hash": "5defb2893afd92e20bb5cb6213e912f9",
+    "semantic_hash": "5defb2893afd92e20bb5cb6213e912f9"
+  },
+  "src/utils/cn.ts": {
+    "mtime": 1781678480.8052616,
+    "ast_hash": "2feca4e0ec0c5ca2184dab631e29c1f1",
+    "semantic_hash": "2feca4e0ec0c5ca2184dab631e29c1f1"
+  },
+  "src/utils/numberToWords.ts": {
+    "mtime": 1781683830.8591492,
+    "ast_hash": "952b36f96347114496eeef10075befb2",
+    "semantic_hash": "952b36f96347114496eeef10075befb2"
+  },
+  "tailwind.config.js": {
+    "mtime": 1781678422.6982667,
+    "ast_hash": "c3281139f3f495918390249d4661e9e8",
+    "semantic_hash": "c3281139f3f495918390249d4661e9e8"
+  },
+  "tsconfig.json": {
+    "mtime": 1781875091.1298912,
+    "ast_hash": "c8419c37703ab220196a42e7d6a69b99",
+    "semantic_hash": "c8419c37703ab220196a42e7d6a69b99"
+  },
+  "vite.config.ts": {
+    "mtime": 1781678459.778865,
+    "ast_hash": "6470b0ad57e763c6a72b37cac4f25733",
+    "semantic_hash": "6470b0ad57e763c6a72b37cac4f25733"
+  }
+}

@@ -1,0 +1,398 @@
+{
+  "communities": {
+    "0": [
+      "package",
+      "package_dependencies",
+      "package_dependencies_autoprefixer",
+      "package_dependencies_axios",
+      "package_dependencies_clsx",
+      "package_dependencies_framer_motion",
+      "package_dependencies_fuse_js",
+      "package_dependencies_html2pdf_js",
+      "package_dependencies_html5_qrcode",
+      "package_dependencies_lucide_react",
+      "package_dependencies_postcss",
+      "package_dependencies_react",
+      "package_dependencies_react_dom",
+      "package_dependencies_react_router_dom",
+      "package_dependencies_recharts",
+      "package_dependencies_tailwind_merge",
+      "package_dependencies_tailwindcss",
+      "package_dependencies_tanstack_react_query",
+      "package_dependencies_types_node",
+      "package_dependencies_types_react",
+      "package_dependencies_zustand",
+      "package_devdependencies",
+      "package_devdependencies_vite",
+      "package_devdependencies_vitejs_plugin_react",
+      "package_name",
+      "package_private",
+      "package_scripts",
+      "package_scripts_build",
+      "package_scripts_dev",
+      "package_scripts_preview",
+      "package_type",
+      "package_version",
+      "typescript_svg"
+    ],
+    "1": [
+      "common_aicopilot",
+      "common_aicopilot_aicopilot",
+      "common_aicopilot_initialmessages",
+      "common_aicopilot_nextid",
+      "common_commandpalette",
+      "common_commandpalette_quickactions",
+      "data_mockdata",
+      "data_mockdata_aicopilotresponses",
+      "data_mockdata_aiinsights",
+      "data_mockdata_aisearchresults",
+      "data_mockdata_categorydata",
+      "data_mockdata_customers",
+      "data_mockdata_medicines",
+      "data_mockdata_recentactivities",
+      "data_mockdata_revenuedata",
+      "data_mockdata_salesinvoices",
+      "data_mockdata_stores",
+      "data_mockdata_suppliers",
+      "pages_aicenter",
+      "pages_stores",
+      "pages_stores_stores",
+      "types_index",
+      "types_index_aiinsight",
+      "types_index_categorydata",
+      "types_index_chatmessage",
+      "types_index_purchaseorder",
+      "types_index_revenuedata",
+      "types_index_saleinvoice",
+      "types_index_store",
+      "types_index_supplier",
+      "types_index_topmedicine",
+      "types_index_userrole"
+    ],
+    "2": [
+      "components_protectedroute",
+      "layout_billingsubsidebar",
+      "layout_billingsubsidebar_billingactionkey",
+      "layout_billingsubsidebar_billingactions",
+      "layout_billingsubsidebar_subaction",
+      "layout_layout",
+      "layout_layout_layout",
+      "layout_layout_pagevariants",
+      "layout_sidebar",
+      "layout_sidebar_navitems",
+      "layout_sidebar_sidebar",
+      "layout_topbar",
+      "layout_topbar_notificons",
+      "layout_topbar_topbar",
+      "pages_login",
+      "pages_login_login",
+      "pages_register",
+      "pages_register_register",
+      "pages_settings",
+      "pages_settings_settings",
+      "src_app",
+      "src_app_app",
+      "src_app_queryclient",
+      "store_useappstore",
+      "store_useappstore_appstore",
+      "store_useappstore_defaultnotifications",
+      "store_useappstore_defaultuser",
+      "types_index_appuser",
+      "types_index_cartitem",
+      "types_index_notification"
+    ],
+    "3": [
+      "billing_analyticswidget",
+      "billing_customerpanel",
+      "billing_holdbillsmodal",
+      "billing_holdbillsmodal_holdbillsmodal",
+      "billing_recentbillsmodal",
+      "billing_returnmodal",
+      "billing_smartsuggestions",
+      "billing_smartsuggestions_suggestionmap",
+      "hooks_usebilling",
+      "hooks_usebilling_usebillinganalytics",
+      "hooks_usebilling_usecreatesale",
+      "hooks_usebilling_usecustomerstats",
+      "hooks_usebilling_useprocessreturn",
+      "hooks_usebilling_usesales",
+      "hooks_usecountup",
+      "pages_dashboard",
+      "pages_dashboard_dashboard",
+      "pages_dashboard_kpicard",
+      "pages_dashboard_sectionheader",
+      "pages_reports",
+      "pages_reports_reports",
+      "pages_sales",
+      "pages_sales_sales",
+      "utils_cn",
+      "utils_cn_formatcurrency",
+      "utils_cn_formatdate",
+      "utils_cn_formatnumber",
+      "utils_cn_getdaysuntilexpiry"
+    ],
+    "4": [
+      "billing_barcodescanner",
+      "billing_barcodescanner_alertcircle",
+      "billing_barcodescanner_barcodescannerprops",
+      "billing_doctordetailsmodal",
+      "billing_medicineinsightspanel",
+      "billing_medicineinsightspanel_isvaliduuid",
+      "billing_patientdetailsmodal",
+      "billing_printinvoice",
+      "billing_printinvoice_invoiceitem",
+      "billing_printinvoice_printinvoiceprops",
+      "data_globalcatalog",
+      "data_globalcatalog_globalproduct",
+      "hooks_usecategories",
+      "hooks_usecategories_usecreatecategory",
+      "hooks_usecategories_usedeletecategory",
+      "hooks_usesuppliers",
+      "hooks_usesuppliers_usecreatesupplier",
+      "hooks_usesuppliers_usedeletesupplier",
+      "lib_api",
+      "lib_api_api",
+      "pages_billing",
+      "pages_billing_billing",
+      "pages_billing_invoiceitem",
+      "pages_printinvoicepage",
+      "store_usebillingstore",
+      "store_usebillingstore_billingstore",
+      "utils_numbertowords"
+    ],
+    "5": [
+      "tsconfig",
+      "tsconfig_compileroptions",
+      "tsconfig_compileroptions_allowimportingtsextensions",
+      "tsconfig_compileroptions_baseurl",
+      "tsconfig_compileroptions_erasablesyntaxonly",
+      "tsconfig_compileroptions_ignoredeprecations",
+      "tsconfig_compileroptions_jsx",
+      "tsconfig_compileroptions_lib",
+      "tsconfig_compileroptions_module",
+      "tsconfig_compileroptions_moduledetection",
+      "tsconfig_compileroptions_moduleresolution",
+      "tsconfig_compileroptions_noemit",
+      "tsconfig_compileroptions_nofallthroughcasesinswitch",
+      "tsconfig_compileroptions_nounusedlocals",
+      "tsconfig_compileroptions_nounusedparameters",
+      "tsconfig_compileroptions_paths",
+      "tsconfig_compileroptions_skiplibcheck",
+      "tsconfig_compileroptions_strict",
+      "tsconfig_compileroptions_target",
+      "tsconfig_compileroptions_types",
+      "tsconfig_compileroptions_verbatimmodulesyntax",
+      "tsconfig_include",
+      "tsconfig_paths"
+    ],
+    "6": [
+      "common_confirmdialog",
+      "common_modal",
+      "common_modal_modal",
+      "common_modal_modalprops",
+      "hooks_usemedicines",
+      "hooks_usemedicines_usecreatemedicine",
+      "hooks_usemedicines_usedeletemedicine",
+      "hooks_usemedicines_useupdatemedicine",
+      "inventory_medicineform",
+      "inventory_medicineform_medicineformprops",
+      "pages_inventory",
+      "types_index_medicine",
+      "utils_cn_cn",
+      "utils_cn_getexpirystatus"
+    ],
+    "7": [
+      "common_toast",
+      "common_toast_icons",
+      "common_toast_toastcontainer",
+      "hooks_usepurchases",
+      "hooks_usepurchases_usecreatepurchase",
+      "hooks_usepurchases_usereceivepurchase",
+      "hooks_usetoast",
+      "hooks_usetoast_toastmessage",
+      "hooks_usetoast_toaststore",
+      "hooks_usetoast_toasttype",
+      "hooks_usetoast_usetoast",
+      "pages_purchases"
+    ],
+    "8": [
+      "customers_customerform",
+      "customers_customerform_customerform",
+      "hooks_usecustomers",
+      "hooks_usecustomers_usecreatecustomer",
+      "hooks_usecustomers_usedeletecustomer",
+      "hooks_usecustomers_useupdatecustomer",
+      "pages_customers",
+      "pages_customers_alertcircleicon",
+      "pages_customers_customers",
+      "types_index_customer"
+    ],
+    "9": [
+      "favicon_svg",
+      "hero_png",
+      "index_html",
+      "index_mediflow_erp",
+      "main_tsx",
+      "vite_svg"
+    ],
+    "10": [
+      "src_counter",
+      "src_counter_setupcounter",
+      "src_main_ts_src_main"
+    ],
+    "11": [
+      "billing_pharmacycustomerpanel"
+    ],
+    "12": [
+      "hooks_usebillingdraft"
+    ],
+    "13": [
+      "hooks_usebillingkeyboard"
+    ],
+    "14": [
+      "icons_svg"
+    ],
+    "15": [
+      "postcss_config"
+    ],
+    "16": [
+      "tailwind_config"
+    ],
+    "17": [
+      "vite_config"
+    ]
+  },
+  "cohesion": {
+    "0": 0.06060606060606061,
+    "1": 0.09475806451612903,
+    "2": 0.10574712643678161,
+    "3": 0.1455026455026455,
+    "4": 0.09116809116809117,
+    "5": 0.08695652173913043,
+    "6": 0.23076923076923078,
+    "7": 0.22727272727272727,
+    "8": 0.4222222222222222,
+    "9": 0.3333333333333333,
+    "10": 1.0,
+    "11": 1.0,
+    "12": 1.0,
+    "13": 1.0,
+    "14": 1.0,
+    "15": 1.0,
+    "16": 1.0,
+    "17": 1.0
+  },
+  "gods": [
+    {
+      "id": "utils_cn_formatcurrency",
+      "label": "formatCurrency()",
+      "degree": 23
+    },
+    {
+      "id": "tsconfig_compileroptions",
+      "label": "compilerOptions",
+      "degree": 20
+    },
+    {
+      "id": "utils_cn_formatdate",
+      "label": "formatDate()",
+      "degree": 13
+    },
+    {
+      "id": "utils_cn_cn",
+      "label": "cn()",
+      "degree": 8
+    },
+    {
+      "id": "hooks_usetoast_usetoast",
+      "label": "useToast",
+      "degree": 7
+    },
+    {
+      "id": "pages_customers_customers",
+      "label": "Customers()",
+      "degree": 7
+    },
+    {
+      "id": "types_index_medicine",
+      "label": "Medicine",
+      "degree": 7
+    },
+    {
+      "id": "types_index_customer",
+      "label": "Customer",
+      "degree": 6
+    },
+    {
+      "id": "pages_sales_sales",
+      "label": "Sales()",
+      "degree": 5
+    },
+    {
+      "id": "types_index_notification",
+      "label": "Notification",
+      "degree": 5
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Modal()",
+      "target": "cn()",
+      "source_files": [
+        "src/components/common/Modal.tsx",
+        "src/utils/cn.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "peripheral node `Modal()` unexpectedly reaches hub `cn()`"
+    },
+    {
+      "source": "ToastContainer()",
+      "target": "useToast",
+      "source_files": [
+        "src/components/common/Toast.tsx",
+        "src/hooks/useToast.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "peripheral node `ToastContainer()` unexpectedly reaches hub `useToast`"
+    },
+    {
+      "source": "CustomerForm()",
+      "target": "Customer",
+      "source_files": [
+        "src/components/customers/CustomerForm.tsx",
+        "src/types/index.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "peripheral node `CustomerForm()` unexpectedly reaches hub `Customer`"
+    },
+    {
+      "source": "MedicineFormProps",
+      "target": "Medicine",
+      "source_files": [
+        "src/components/inventory/MedicineForm.tsx",
+        "src/types/index.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "peripheral node `MedicineFormProps` unexpectedly reaches hub `Medicine`"
+    },
+    {
+      "source": "Customers()",
+      "target": "useToast",
+      "source_files": [
+        "src/pages/Customers.tsx",
+        "src/hooks/useToast.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "bridges separate communities"
+    }
+  ],
+  "tokens": {
+    "input": 20101,
+    "output": 1243
+  }
+}
