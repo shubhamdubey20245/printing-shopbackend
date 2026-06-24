@@ -3,7 +3,7 @@ import { useAppStore } from '../store/useAppStore';
 
 const api = axios.create({
   // baseURL: 'http://localhost:5000/api', // Pointing to our local Node.js backend
-  baseURL: 'https://mediflow-frontend-vuze.onrender.com/api',
+  baseURL: 'https://printing-shopbackend.onrender.com/api',
 
   headers: {
     'Content-Type': 'application/json',
