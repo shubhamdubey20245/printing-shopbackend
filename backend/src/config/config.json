@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "root",
+    "password": "admin@1234",
+    "database": "demov2",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "postgres",
+    "database": "mediflow_test",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "postgres",
+    "database": "mediflow_prod",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}

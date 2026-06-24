@@ -1,0 +1,614 @@
+{
+  "communities": {
+    "0": [
+      "analytics_analyticscontroller",
+      "analytics_analyticscontroller_db",
+      "analytics_analyticscontroller_getcustomerhistory",
+      "analytics_analyticscontroller_getmedicinepricing",
+      "analytics_analyticscontroller_getmedicinetimeline",
+      "analytics_analyticsroutes",
+      "analytics_analyticsroutes_router",
+      "categories_categorycontroller",
+      "categories_categorycontroller_createcategory",
+      "categories_categorycontroller_db",
+      "categories_categorycontroller_deletecategory",
+      "categories_categorycontroller_getcategories",
+      "categories_categorycontroller_updatecategory",
+      "categories_categoryroutes",
+      "categories_categoryroutes_router",
+      "doctors_doctorcontroller",
+      "doctors_doctorcontroller_createdoctor",
+      "doctors_doctorcontroller_getdoctors",
+      "doctors_doctorcontroller_updatedoctor",
+      "doctors_doctorroutes",
+      "doctors_doctorroutes_router",
+      "inventory_inventorycontroller",
+      "inventory_inventorycontroller_db",
+      "inventory_inventorycontroller_getmedicinebatches",
+      "inventory_inventorycontroller_getmedicinepurchasehistory",
+      "inventory_inventoryroutes",
+      "inventory_inventoryroutes_router",
+      "middlewares_authmiddleware",
+      "middlewares_authmiddleware_authrequest",
+      "middlewares_rolemiddleware",
+      "middlewares_tenantmiddleware",
+      "models_doctor",
+      "models_doctor_doctor",
+      "models_doctor_doctor_associate",
+      "reports_reportcontroller",
+      "reports_reportcontroller_db",
+      "reports_reportcontroller_getgstreports",
+      "reports_reportcontroller_getinventoryreports",
+      "reports_reportcontroller_getsalesreports",
+      "reports_reportroutes",
+      "reports_reportroutes_router",
+      "settings_settingscontroller",
+      "settings_settingscontroller_db",
+      "settings_settingscontroller_getstoreprofile",
+      "settings_settingscontroller_updatestoreprofile",
+      "settings_settingsroutes",
+      "settings_settingsroutes_router",
+      "src_app",
+      "src_app_app"
+    ],
+    "1": [
+      "config_database",
+      "config_database_sequelize",
+      "models_category",
+      "models_category_category",
+      "models_category_category_associate",
+      "models_customer",
+      "models_customer_customer",
+      "models_customer_customer_associate",
+      "models_medicine",
+      "models_medicine_medicine",
+      "models_medicine_medicine_associate",
+      "models_notification",
+      "models_notification_notification_associate",
+      "models_permission",
+      "models_permission_permission",
+      "models_permission_permission_associate",
+      "models_return",
+      "models_return_return",
+      "models_return_return_associate",
+      "models_returnitem",
+      "models_returnitem_returnitem_associate",
+      "models_role",
+      "models_role_role",
+      "models_role_role_associate",
+      "models_sale",
+      "models_sale_sale",
+      "models_sale_sale_associate",
+      "models_saleitem",
+      "models_saleitem_saleitem",
+      "models_saleitem_saleitem_associate",
+      "models_supplier",
+      "models_supplier_supplier",
+      "models_supplier_supplier_associate",
+      "models_tenant",
+      "models_tenant_tenant",
+      "models_tenant_tenant_associate",
+      "models_tenantsetting",
+      "models_tenantsetting_tenantsetting_associate",
+      "models_user",
+      "models_user_user",
+      "models_user_user_associate",
+      "models_userrole",
+      "models_userrole_userrole",
+      "src_server",
+      "src_server_startserver"
+    ],
+    "2": [
+      "package",
+      "package_author",
+      "package_dependencies",
+      "package_dependencies_bcrypt",
+      "package_dependencies_cors",
+      "package_dependencies_dotenv",
+      "package_dependencies_express",
+      "package_dependencies_helmet",
+      "package_dependencies_jsonwebtoken",
+      "package_dependencies_mysql2",
+      "package_dependencies_pg",
+      "package_dependencies_pg_hstore",
+      "package_dependencies_sequelize",
+      "package_dependencies_zod",
+      "package_description",
+      "package_devdependencies",
+      "package_devdependencies_nodemon",
+      "package_devdependencies_sequelize_cli",
+      "package_devdependencies_ts_node",
+      "package_devdependencies_types_bcrypt",
+      "package_devdependencies_types_cors",
+      "package_devdependencies_types_express",
+      "package_devdependencies_types_jsonwebtoken",
+      "package_keywords",
+      "package_license",
+      "package_main",
+      "package_name",
+      "package_scripts",
+      "package_scripts_build",
+      "package_scripts_dev",
+      "package_scripts_start",
+      "package_version"
+    ],
+    "3": [
+      "customers_customercontroller",
+      "customers_customercontroller_createcustomer",
+      "customers_customercontroller_db",
+      "customers_customercontroller_deletecustomer",
+      "customers_customercontroller_getcustomerbyid",
+      "customers_customercontroller_getcustomers",
+      "customers_customercontroller_getcustomerstats",
+      "customers_customercontroller_updatecustomer",
+      "customers_customerroutes",
+      "customers_customerroutes_router",
+      "medicines_medicinecontroller",
+      "medicines_medicinecontroller_createmedicine",
+      "medicines_medicinecontroller_db",
+      "medicines_medicinecontroller_deletemedicine",
+      "medicines_medicinecontroller_getmedicinebyid",
+      "medicines_medicinecontroller_getmedicines",
+      "medicines_medicinecontroller_updatemedicine",
+      "medicines_medicineroutes",
+      "medicines_medicineroutes_router",
+      "utils_pagination",
+      "utils_pagination_getpaginationoptions",
+      "utils_pagination_getsearchquery",
+      "utils_pagination_getsortingoptions",
+      "utils_pagination_paginationoptions"
+    ],
+    "4": [
+      "all_migrations_categories",
+      "all_migrations_customers",
+      "all_migrations_medicines",
+      "all_migrations_permissions",
+      "all_migrations_roles",
+      "all_migrations_suppliers",
+      "all_migrations_tenants",
+      "all_migrations_user_roles",
+      "all_migrations_users",
+      "all_models_category",
+      "all_models_customer",
+      "all_models_notification",
+      "models_inventorytransaction",
+      "models_inventorytransaction_inventorytransaction_associate",
+      "models_purchaseorder",
+      "models_purchaseorder_purchaseorder_associate",
+      "models_purchaseorderitem",
+      "models_purchaseorderitem_purchaseorderitem_associate",
+      "models_rolepermission"
+    ],
+    "5": [
+      "models_index",
+      "models_index_basename",
+      "models_index_db",
+      "models_index_fs",
+      "models_index_path",
+      "models_index_process",
+      "models_index_sequelize",
+      "purchases_purchasecontroller",
+      "purchases_purchasecontroller_createpurchase",
+      "purchases_purchasecontroller_db",
+      "purchases_purchasecontroller_getpurchases",
+      "purchases_purchasecontroller_receivepurchase",
+      "purchases_purchaseroutes",
+      "purchases_purchaseroutes_router",
+      "scripts_seed",
+      "scripts_seed_seed",
+      "test_attributes",
+      "test_attributes_db"
+    ],
+    "6": [
+      "tsconfig_compileroptions",
+      "tsconfig_compileroptions_esmoduleinterop",
+      "tsconfig_compileroptions_ignoredeprecations",
+      "tsconfig_compileroptions_lib",
+      "tsconfig_compileroptions_module",
+      "tsconfig_compileroptions_moduleresolution",
+      "tsconfig_compileroptions_outdir",
+      "tsconfig_compileroptions_resolvejsonmodule",
+      "tsconfig_compileroptions_rootdir",
+      "tsconfig_compileroptions_skiplibcheck",
+      "tsconfig_compileroptions_strict",
+      "tsconfig_compileroptions_target",
+      "tsconfig_compileroptions_types"
+    ],
+    "7": [
+      "billing_billingcontroller",
+      "billing_billingcontroller_createsale",
+      "billing_billingcontroller_db",
+      "billing_billingcontroller_getanalytics",
+      "billing_billingcontroller_getmedicinesaleshistory",
+      "billing_billingcontroller_getsalebyid",
+      "billing_billingcontroller_getsales",
+      "billing_billingcontroller_processreturn",
+      "billing_billingcontroller_updatesale",
+      "billing_billingroutes",
+      "billing_billingroutes_router"
+    ],
+    "8": [
+      "src_config_config_json_config_config_development",
+      "src_config_config_json_config_config_production",
+      "src_config_config_json_config_config_test",
+      "src_config_config_json_config_config_test_database",
+      "src_config_config_json_config_config_test_dialect",
+      "src_config_config_json_config_config_test_host",
+      "src_config_config_json_config_config_test_password",
+      "src_config_config_json_config_config_test_username",
+      "tsconfig",
+      "tsconfig_exclude",
+      "tsconfig_include"
+    ],
+    "9": [
+      "ast_sync",
+      "ast_sync_extractmodeldata",
+      "ast_sync_fs",
+      "ast_sync_migrationfiles",
+      "ast_sync_migrationsdir",
+      "ast_sync_modelfiles",
+      "ast_sync_modelsdir",
+      "ast_sync_path",
+      "ast_sync_ts"
+    ],
+    "10": [
+      "compare_models",
+      "compare_models_extractmigrationdefinition",
+      "compare_models_extractmodeldefinition",
+      "compare_models_fs",
+      "compare_models_migrationfiles",
+      "compare_models_migrationsdir",
+      "compare_models_modelfiles",
+      "compare_models_modelsdir",
+      "compare_models_path"
+    ],
+    "11": [
+      "src_database_config_config_json_config_config",
+      "src_database_config_config_json_config_config_development",
+      "src_database_config_config_json_config_config_production",
+      "src_database_config_config_json_config_config_test",
+      "src_database_config_config_json_config_config_test_database",
+      "src_database_config_config_json_config_config_test_dialect",
+      "src_database_config_config_json_config_config_test_host",
+      "src_database_config_config_json_config_config_test_password",
+      "src_database_config_config_json_config_config_test_username"
+    ],
+    "12": [
+      "dashboard_dashboardcontroller",
+      "dashboard_dashboardcontroller_db",
+      "dashboard_dashboardcontroller_getexpiringmedicines",
+      "dashboard_dashboardcontroller_getrecentbills",
+      "dashboard_dashboardcontroller_getstats",
+      "dashboard_dashboardcontroller_gettopselling",
+      "dashboard_dashboardroutes",
+      "dashboard_dashboardroutes_router"
+    ],
+    "13": [
+      "suppliers_suppliercontroller",
+      "suppliers_suppliercontroller_createsupplier",
+      "suppliers_suppliercontroller_db",
+      "suppliers_suppliercontroller_deletesupplier",
+      "suppliers_suppliercontroller_getsuppliers",
+      "suppliers_suppliercontroller_updatesupplier",
+      "suppliers_supplierroutes",
+      "suppliers_supplierroutes_router"
+    ],
+    "14": [
+      "auth_authcontroller",
+      "auth_authcontroller_db",
+      "auth_authcontroller_login",
+      "auth_authcontroller_registertenant",
+      "auth_authroutes",
+      "auth_authroutes_router"
+    ],
+    "15": [
+      "fill_migrations",
+      "fill_migrations_files",
+      "fill_migrations_fs",
+      "fill_migrations_migrationsdir",
+      "fill_migrations_path",
+      "fill_migrations_schemas"
+    ],
+    "16": [
+      "generate_migrations",
+      "generate_migrations_fs",
+      "generate_migrations_migrationsdir",
+      "generate_migrations_now",
+      "generate_migrations_path",
+      "generate_migrations_tables"
+    ],
+    "17": [
+      "fix_migrations",
+      "fix_migrations_files",
+      "fix_migrations_fs",
+      "fix_migrations_migrationsdir",
+      "fix_migrations_path"
+    ],
+    "18": [
+      "test_db",
+      "test_db_config",
+      "test_db_run",
+      "test_db_sequelize"
+    ],
+    "19": [
+      "migrations_20260619095016_add_status_to_sales",
+      "migrations_20260619095016_add_status_to_sales_down",
+      "migrations_20260619095016_add_status_to_sales_up"
+    ],
+    "20": [
+      "seeders_20260618084059_default_roles_permissions",
+      "seeders_20260618084059_default_roles_permissions_bcrypt",
+      "seeders_20260618084059_default_roles_permissions_v4_uuidv4"
+    ],
+    "21": [
+      "config_config_path",
+      "src_config_config_js_config_config"
+    ],
+    "22": [
+      "types_express_d",
+      "types_express_d_request"
+    ],
+    "23": [
+      "all_models_medicine"
+    ],
+    "24": [
+      "all_models_permission"
+    ],
+    "25": [
+      "all_models_purchaseorder"
+    ],
+    "26": [
+      "fix_db"
+    ],
+    "27": [
+      "migrations_20260618140858_create_tenants"
+    ],
+    "28": [
+      "migrations_20260618140958_create_users"
+    ],
+    "29": [
+      "migrations_20260618141058_create_roles"
+    ],
+    "30": [
+      "migrations_20260618141158_create_permissions"
+    ],
+    "31": [
+      "migrations_20260618141258_create_role_permissions"
+    ],
+    "32": [
+      "migrations_20260618141358_create_user_roles"
+    ],
+    "33": [
+      "migrations_20260618141458_create_categories"
+    ],
+    "34": [
+      "migrations_20260618141558_create_customers"
+    ],
+    "35": [
+      "migrations_20260618141658_create_suppliers"
+    ],
+    "36": [
+      "migrations_20260618141758_create_medicines"
+    ],
+    "37": [
+      "migrations_20260618141858_create_purchase_orders"
+    ],
+    "38": [
+      "migrations_20260618141958_create_purchase_order_items"
+    ],
+    "39": [
+      "migrations_20260618142058_create_sales"
+    ],
+    "40": [
+      "migrations_20260618142158_create_sale_items"
+    ],
+    "41": [
+      "migrations_20260618142258_create_returns"
+    ],
+    "42": [
+      "migrations_20260618142358_create_return_items"
+    ],
+    "43": [
+      "migrations_20260618142458_create_inventory_transactions"
+    ],
+    "44": [
+      "migrations_20260618142558_create_notifications"
+    ],
+    "45": [
+      "migrations_20260618142658_create_tenant_settings"
+    ],
+    "46": [
+      "migrations_20260619000000_add_billing_fields_to_sales"
+    ],
+    "47": [
+      "migrations_20260619000001_add_pharmacy_fields_to_sales"
+    ],
+    "48": [
+      "migrations_20260622000000_add_snapshots_to_sale_items"
+    ],
+    "49": [
+      "migrations_20260622000001_add_free_qty_notes_to_sale_items"
+    ],
+    "50": [
+      "migrations_20260623000000_add_fields_to_customers"
+    ],
+    "51": [
+      "migrations_20260623000001_add_fields_to_doctors"
+    ],
+    "52": [
+      "migrations_20260624000000_add_doctor_fields_to_sales"
+    ],
+    "53": [
+      "test_billing"
+    ]
+  },
+  "cohesion": {
+    "0": 0.07738095238095238,
+    "1": 0.046464646464646465,
+    "2": 0.0625,
+    "3": 0.16666666666666666,
+    "4": 0.13450292397660818,
+    "5": 0.13071895424836602,
+    "6": 0.15384615384615385,
+    "7": 0.3090909090909091,
+    "8": 0.36363636363636365,
+    "9": 0.2222222222222222,
+    "10": 0.2222222222222222,
+    "11": 0.5,
+    "12": 0.39285714285714285,
+    "13": 0.39285714285714285,
+    "14": 0.4666666666666667,
+    "15": 0.3333333333333333,
+    "16": 0.3333333333333333,
+    "17": 0.4,
+    "18": 0.5,
+    "19": 0.6666666666666666,
+    "20": 0.6666666666666666,
+    "21": 1.0,
+    "22": 1.0,
+    "23": 1.0,
+    "24": 1.0,
+    "25": 1.0,
+    "26": 1.0,
+    "27": 1.0,
+    "28": 1.0,
+    "29": 1.0,
+    "30": 1.0,
+    "31": 1.0,
+    "32": 1.0,
+    "33": 1.0,
+    "34": 1.0,
+    "35": 1.0,
+    "36": 1.0,
+    "37": 1.0,
+    "38": 1.0,
+    "39": 1.0,
+    "40": 1.0,
+    "41": 1.0,
+    "42": 1.0,
+    "43": 1.0,
+    "44": 1.0,
+    "45": 1.0,
+    "46": 1.0,
+    "47": 1.0,
+    "48": 1.0,
+    "49": 1.0,
+    "50": 1.0,
+    "51": 1.0,
+    "52": 1.0,
+    "53": 1.0
+  },
+  "gods": [
+    {
+      "id": "middlewares_authmiddleware_authrequest",
+      "label": "AuthRequest",
+      "degree": 15
+    },
+    {
+      "id": "tsconfig_compileroptions",
+      "label": "compilerOptions",
+      "degree": 13
+    },
+    {
+      "id": "all_migrations_tenants",
+      "label": "Tenants Table",
+      "degree": 7
+    },
+    {
+      "id": "src_config_config_json_config_config_development",
+      "label": "development",
+      "degree": 6
+    },
+    {
+      "id": "src_config_config_json_config_config_test",
+      "label": "test",
+      "degree": 6
+    },
+    {
+      "id": "src_config_config_json_config_config_production",
+      "label": "production",
+      "degree": 6
+    },
+    {
+      "id": "src_database_config_config_json_config_config_development",
+      "label": "development",
+      "degree": 6
+    },
+    {
+      "id": "src_database_config_config_json_config_config_test",
+      "label": "test",
+      "degree": 6
+    },
+    {
+      "id": "src_database_config_config_json_config_config_production",
+      "label": "production",
+      "degree": 6
+    },
+    {
+      "id": "customers_customercontroller_getcustomers",
+      "label": "getCustomers()",
+      "degree": 5
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Category Model",
+      "target": "Categories Table",
+      "source_files": [
+        "all_models.txt",
+        "all_migrations.txt"
+      ],
+      "confidence": "INFERRED",
+      "relation": "implements",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories"
+    },
+    {
+      "source": "Customer Model",
+      "target": "Customers Table",
+      "source_files": [
+        "all_models.txt",
+        "all_migrations.txt"
+      ],
+      "confidence": "INFERRED",
+      "relation": "implements",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories"
+    },
+    {
+      "source": "Notification Model",
+      "target": "Users Table",
+      "source_files": [
+        "all_models.txt",
+        "all_migrations.txt"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories"
+    },
+    {
+      "source": "getCustomers()",
+      "target": "getPaginationOptions()",
+      "source_files": [
+        "src/modules/customers/customerController.ts",
+        "src/utils/pagination.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "cross-file semantic connection"
+    },
+    {
+      "source": "getCustomers()",
+      "target": "getSearchQuery()",
+      "source_files": [
+        "src/modules/customers/customerController.ts",
+        "src/utils/pagination.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "cross-file semantic connection"
+    }
+  ],
+  "tokens": {
+    "input": 40330,
+    "output": 2267
+  }
+}
