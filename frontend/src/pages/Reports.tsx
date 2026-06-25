@@ -142,7 +142,7 @@ export default function Reports() {
       >
         {activeTab === 'sales' && (
           <div className="space-y-6">
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
               {[
                 { title: 'Total Sales', value: formatCurrency(285000), trend: '+12.5%' },
                 { title: 'Total Invoices', value: '1,842', trend: '+5.2%' },
@@ -216,7 +216,7 @@ export default function Reports() {
 
         {activeTab === 'gst' && (
           <div className="space-y-6">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="grid grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="card p-6 bg-gradient-to-br from-indigo-50 to-white dark:from-indigo-900/20 dark:to-[#111118] border-indigo-100 dark:border-indigo-900/30">
                 <p className="text-sm font-semibold uppercase tracking-wider text-indigo-500 mb-2">Total Taxable Amount</p>
                 <p className="text-3xl font-black text-indigo-700 dark:text-indigo-400">{formatCurrency(254464)}</p>

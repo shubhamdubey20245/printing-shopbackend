@@ -175,7 +175,7 @@ export default function Inventory() {
       </div>
 
       {/* Stats Row */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
         {[
           { title: 'Total SKUs', value: totalSkus, icon: Package, color: 'text-primary-500', bg: 'bg-primary-50 dark:bg-primary-900/20', filterVal: 'All' },
           { title: 'Low Stock', value: lowStockCount, icon: AlertTriangle, color: 'text-amber-500', bg: 'bg-amber-50 dark:bg-amber-900/20', filterVal: 'Low Stock' },

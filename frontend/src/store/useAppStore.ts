@@ -44,6 +44,7 @@ interface AppStore {
   // Sidebar
   isSidebarCollapsed: boolean
   toggleSidebar: () => void
+  setSidebarCollapsed: (collapsed: boolean) => void
 
   // Billing Sub-Sidebar
   isBillingSubSidebarCollapsed: boolean
@@ -170,6 +171,7 @@ export const useAppStore = create<AppStore>()(
 
   isSidebarCollapsed: false,
   toggleSidebar: () => set((state) => ({ isSidebarCollapsed: !state.isSidebarCollapsed })),
+  setSidebarCollapsed: (collapsed) => set({ isSidebarCollapsed: collapsed }),
 
   isBillingSubSidebarCollapsed: false,
   toggleBillingSubSidebar: () => set((state) => ({ isBillingSubSidebarCollapsed: !state.isBillingSubSidebarCollapsed })),

@@ -58,7 +58,7 @@ export const RecentBillsModal: React.FC<RecentBillsModalProps> = ({ sales, onClo
               <p>No invoices found matching your search.</p>
             </div>
           ) : (
-            <div className="space-y-2">
+            <div className="space-y-2 overflow-x-auto">
               <table className="w-full text-left text-sm whitespace-nowrap">
                 <thead className="bg-gray-50 dark:bg-gray-800/50 text-gray-500 text-xs uppercase tracking-wider font-bold">
                   <tr>

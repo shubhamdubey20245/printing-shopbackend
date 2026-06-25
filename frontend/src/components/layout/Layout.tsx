@@ -1,6 +1,6 @@
-import { Outlet } from 'react-router-dom'
+import { useEffect } from 'react'
+import { Outlet, useLocation } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
-import { useLocation } from 'react-router-dom'
 import Sidebar from './Sidebar'
 import Topbar from './Topbar'
 import { useAppStore } from '@/store/useAppStore'
@@ -15,8 +15,24 @@ const pageVariants = {
 }
 
 export default function Layout() {
-  const { isSidebarCollapsed, isBillingSubSidebarCollapsed } = useAppStore()
+  const { isSidebarCollapsed, setSidebarCollapsed } = useAppStore()
   const location = useLocation()
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth < 1024) {
+        setSidebarCollapsed(true)
+      } else {
+        setSidebarCollapsed(false)
+      }
+    }
+    
+    // Initial check
+    handleResize()
+
+    window.addEventListener('resize', handleResize)
+    return () => window.removeEventListener('resize', handleResize)
+  }, [setSidebarCollapsed])
 
   const mainSidebarWidth = isSidebarCollapsed ? 72 : 240
   const marginLeft = mainSidebarWidth

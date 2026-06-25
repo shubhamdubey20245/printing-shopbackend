@@ -170,7 +170,7 @@ export default function Dashboard() {
       </div>
 
       {/* 1. Quick Actions */}
-      <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+      <div className="grid grid-cols-5 gap-4">
         {quickActions.map((action) => (
           <button
             key={action.label}
@@ -186,7 +186,7 @@ export default function Dashboard() {
       </div>
 
       {/* 2. KPI Cards Section */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4">
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
         <KPICard 
           title="Today's Sales" value={stats.todaysSales} trend="up" trendValue="12.4%" 
           icon={DollarSign} colorClass="bg-emerald-500 text-emerald-50 dark:bg-emerald-600" 

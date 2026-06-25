@@ -171,7 +171,7 @@ export default function Customers() {
         </div>
 
         {/* Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 pb-4">
+        <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 pb-4">
           <AnimatePresence>
             {filteredCustomers.map((customer: any, i: number) => (
               <motion.div

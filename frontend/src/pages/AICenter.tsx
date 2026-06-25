@@ -89,7 +89,7 @@ export default function AICenter() {
                 <h3 className="text-sm font-bold uppercase tracking-wider mb-4 flex items-center gap-2" style={{ color: 'var(--text-muted)' }}>
                   <Zap className="w-4 h-4 text-amber-500" /> AI Suggestions
                 </h3>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div className="grid grid-cols-2 gap-4">
                   {aiSearchResults['fever medicine'].map((res, i) => (
                     <div key={res.name} className="card p-5 border-l-4 hover:shadow-md transition-shadow flex flex-col" style={{ borderLeftColor: res.stock > 0 ? '#10b981' : '#f43f5e' }}>
                       <div className="flex justify-between items-start mb-2">
@@ -134,7 +134,7 @@ export default function AICenter() {
 
           {/* TAB 2: Advisor */}
           {activeTab === 'advisor' && (
-            <motion.div key="advisor" initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <motion.div key="advisor" initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="grid grid-cols-2 gap-4">
               {aiInsights.map((insight, i) => {
                 const getStyle = () => {
                   if(insight.type==='warning') return { bg: 'bg-amber-50 dark:bg-amber-900/10 border-amber-200', icon: AlertTriangle, color: 'text-amber-500' }

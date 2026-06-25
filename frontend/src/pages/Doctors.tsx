@@ -128,7 +128,7 @@ export default function Doctors() {
         </div>
 
         {/* Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 pb-4">
+        <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 pb-4">
           {filteredDoctors.length === 0 ? (
             <div className="col-span-full flex flex-col items-center justify-center p-12 bg-white/50 dark:bg-[#1a1a24]/50 border border-dashed border-gray-300 dark:border-gray-700 rounded-3xl">
               <div className="w-16 h-16 rounded-full bg-teal-100 dark:bg-teal-900/30 flex items-center justify-center mb-4">
