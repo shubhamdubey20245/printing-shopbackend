@@ -14,6 +14,9 @@ import settingsRoutes from './modules/settings/settingsRoutes';
 import analyticsRoutes from './modules/analytics/analyticsRoutes';
 import inventoryRoutes from './modules/inventory/inventoryRoutes';
 import doctorRoutes from './modules/doctors/doctorRoutes';
+import companyRoutes from './modules/inventory/companyRoutes';
+import saltRoutes from './modules/inventory/saltRoutes';
+import hsnSacRoutes from './modules/inventory/hsnSacRoutes';
 
 const app = express();
 
@@ -41,6 +44,9 @@ app.use('/api/dashboard', dashboardRoutes);
 app.use('/api/reports', reportRoutes);
 app.use('/api/settings', settingsRoutes);
 app.use('/api/analytics', analyticsRoutes);
+app.use('/api/inventory/companies', companyRoutes);
+app.use('/api/inventory/salts', saltRoutes);
+app.use('/api/inventory/hsn-sac', hsnSacRoutes);
 app.use('/api/inventory', inventoryRoutes);
 app.use('/api/doctors', doctorRoutes);
 

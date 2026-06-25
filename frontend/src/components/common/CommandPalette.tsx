@@ -47,7 +47,7 @@ export default function CommandPalette() {
   const medicineResults = query.length > 1
     ? medicines.filter((m) =>
         m.name.toLowerCase().includes(query.toLowerCase()) ||
-        m.genericName.toLowerCase().includes(query.toLowerCase())
+        (m.genericName || '').toLowerCase().includes(query.toLowerCase())
       ).slice(0, 4)
     : []
 

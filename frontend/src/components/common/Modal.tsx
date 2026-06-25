@@ -9,9 +9,10 @@ interface ModalProps {
   title: string
   children: React.ReactNode
   size?: 'sm' | 'md' | 'lg' | 'xl'
+  className?: string
 }
 
-export default function Modal({ isOpen, onClose, title, children, size = 'md' }: ModalProps) {
+export default function Modal({ isOpen, onClose, title, children, size = 'md', className }: ModalProps) {
   useEffect(() => {
     if (isOpen) document.body.style.overflow = 'hidden'
     else document.body.style.overflow = 'unset'
@@ -43,7 +44,8 @@ export default function Modal({ isOpen, onClose, title, children, size = 'md' }:
               exit={{ opacity: 0, scale: 0.95, y: 20 }}
               className={cn(
                 "pointer-events-auto w-full bg-white dark:bg-gray-800 rounded-2xl shadow-floating flex flex-col max-h-[90vh] border border-gray-200 dark:border-gray-700 overflow-hidden",
-                sizeClass
+                sizeClass,
+                className
               )}
             >
               <div className="flex justify-between items-center p-4 border-b border-gray-200 dark:border-gray-700">

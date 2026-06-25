@@ -16,11 +16,12 @@ export const getCategories = async (req: AuthRequest, res: Response) => {
 
 export const createCategory = async (req: AuthRequest, res: Response) => {
   try {
-    const { name, description } = req.body;
+    const { name, description, minimum_margin } = req.body;
     const category = await Category.create({
       tenant_id: req.tenant?.id,
       name,
-      description
+      description,
+      minimum_margin: minimum_margin ?? 0
     });
     res.status(201).json({ success: true, message: 'Category created', data: category });
   } catch (error) {
@@ -31,11 +32,11 @@ export const createCategory = async (req: AuthRequest, res: Response) => {
 export const updateCategory = async (req: AuthRequest, res: Response) => {
   try {
     const { id } = req.params;
-    const { name, description } = req.body;
+    const { name, description, minimum_margin } = req.body;
     const category = await Category.findOne({ where: { id, tenant_id: req.tenant?.id }});
     if (!category) return res.status(404).json({ success: false, message: 'Not found' });
     
-    await category.update({ name, description });
+    await category.update({ name, description, minimum_margin: minimum_margin ?? category.minimum_margin ?? 0 });
     res.json({ success: true, message: 'Category updated', data: category });
   } catch (error) {
     res.status(500).json({ success: false, message: 'Server error', error });

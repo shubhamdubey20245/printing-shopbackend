@@ -1,22 +1,20 @@
 import { Model, DataTypes } from 'sequelize';
 import sequelize from '../../config/database';
 
-export class Category extends Model {
+export class Salt extends Model {
   declare id: string;
   declare tenant_id: string;
   declare name: string;
-  declare description?: string;
-  declare minimum_margin: number;
   declare readonly created_at: Date;
   declare readonly updated_at: Date;
 
   static associate(models: any) {
-    Category.belongsTo(models.Tenant, { foreignKey: 'tenant_id' });
-    Category.hasMany(models.Medicine, { foreignKey: 'category_id' });
+    Salt.belongsTo(models.Tenant, { foreignKey: 'tenant_id' });
+    Salt.hasMany(models.Medicine, { foreignKey: 'salt_id' });
   }
 }
 
-Category.init({
+Salt.init({
   id: {
     type: DataTypes.UUID,
     defaultValue: DataTypes.UUIDV4,
@@ -30,20 +28,11 @@ Category.init({
   name: {
     type: DataTypes.STRING,
     allowNull: false,
-  },
-  description: {
-    type: DataTypes.TEXT,
-    allowNull: true,
-  },
-  minimum_margin: {
-    type: DataTypes.DECIMAL(5, 2),
-    allowNull: false,
-    defaultValue: 0,
   }
 }, {
   sequelize,
-  tableName: 'categories',
-  timestamps: true,
+  modelName: 'Salt',
+  tableName: 'salts',
   createdAt: 'created_at',
   updatedAt: 'updated_at',
 });
