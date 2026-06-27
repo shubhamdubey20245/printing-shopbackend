@@ -6,6 +6,8 @@ interface AppStore {
   // Theme
   isDark: boolean
   toggleDark: () => void
+  themeColor: string
+  setThemeColor: (color: string) => void
 
   // Auth
   token: string | null
@@ -101,6 +103,32 @@ const defaultNotifications: Notification[] = [
   },
 ]
 
+// Helper: converts a hex color to r,g,b components string (e.g. "99 102 241")
+function hexToRgbComponents(hex: string): string {
+  const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex)
+  if (!result) return '99 102 241'
+  return `${parseInt(result[1], 16)} ${parseInt(result[2], 16)} ${parseInt(result[3], 16)}`
+}
+
+// Helper: darken a hex color by a percentage
+function darkenHex(hex: string, amount: number): string {
+  const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex)
+  if (!result) return hex
+  const r = Math.max(0, Math.round(parseInt(result[1], 16) * (1 - amount)))
+  const g = Math.max(0, Math.round(parseInt(result[2], 16) * (1 - amount)))
+  const b = Math.max(0, Math.round(parseInt(result[3], 16) * (1 - amount)))
+  return `#${r.toString(16).padStart(2,'0')}${g.toString(16).padStart(2,'0')}${b.toString(16).padStart(2,'0')}`
+}
+
+export function applyThemeColor(color: string) {
+  const root = document.documentElement
+  const rgb = hexToRgbComponents(color)
+  const darker = darkenHex(color, 0.1)
+  root.style.setProperty('--primary', color)
+  root.style.setProperty('--primary-rgb', rgb)
+  root.style.setProperty('--primary-dark', darker)
+}
+
 export const useAppStore = create<AppStore>()(
   persist(
     (set) => ({
@@ -115,6 +143,12 @@ export const useAppStore = create<AppStore>()(
           }
           return { isDark: next }
         })
+      },
+
+      themeColor: '#6366f1',
+      setThemeColor: (color: string) => {
+        applyThemeColor(color)
+        set({ themeColor: color })
       },
 
       token: null,
@@ -178,7 +212,7 @@ export const useAppStore = create<AppStore>()(
     }),
     {
       name: 'mediflow-storage', // unique name
-      partialize: (state) => ({ token: state.token, currentUser: state.currentUser, isDark: state.isDark }),
+      partialize: (state) => ({ token: state.token, currentUser: state.currentUser, isDark: state.isDark, themeColor: state.themeColor }),
     }
   )
 )

@@ -3056,396 +3056,396 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L4",
+      "id": "package_engines",
       "community": 1,
-      "norm_label": "engines",
-      "id": "package_engines"
+      "norm_label": "engines"
     },
     {
       "label": "node",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L5",
+      "id": "package_engines_node",
       "community": 1,
-      "norm_label": "node",
-      "id": "package_engines_node"
+      "norm_label": "node"
     },
     {
       "label": "@types/node",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L35",
+      "id": "package_devdependencies_types_node",
       "community": 1,
-      "norm_label": "@types/node",
-      "id": "package_devdependencies_types_node"
+      "norm_label": "@types/node"
     },
     {
       "label": "typescript",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L39",
+      "id": "package_devdependencies_typescript",
       "community": 1,
-      "norm_label": "typescript",
-      "id": "package_devdependencies_typescript"
+      "norm_label": "typescript"
     },
     {
       "label": "config.json",
       "file_type": "code",
       "source_file": "src/config/config.json",
       "source_location": "L1",
+      "id": "src_config_config_json_config_config",
       "community": 4,
-      "norm_label": "config.json",
-      "id": "src_config_config_json_config_config"
+      "norm_label": "config.json"
     },
     {
       "label": "20260625000000-add-marg-erp-inventory-masters.js",
       "file_type": "code",
       "source_file": "src/database/migrations/20260625000000-add-marg-erp-inventory-masters.js",
       "source_location": "L1",
+      "id": "migrations_20260625000000_add_marg_erp_inventory_masters",
       "community": 67,
-      "norm_label": "20260625000000-add-marg-erp-inventory-masters.js",
-      "id": "migrations_20260625000000_add_marg_erp_inventory_masters"
+      "norm_label": "20260625000000-add-marg-erp-inventory-masters.js"
     },
     {
       "label": "Company.ts",
       "file_type": "code",
       "source_file": "src/database/models/Company.ts",
       "source_location": "L1",
+      "id": "models_company",
       "community": 24,
-      "norm_label": "company.ts",
-      "id": "models_company"
+      "norm_label": "company.ts"
     },
     {
       "label": "Company",
       "file_type": "code",
       "source_file": "src/database/models/Company.ts",
       "source_location": "L4",
+      "id": "models_company_company",
       "community": 24,
-      "norm_label": "company",
-      "id": "models_company_company"
+      "norm_label": "company"
     },
     {
       "label": ".associate()",
       "file_type": "code",
       "source_file": "src/database/models/Company.ts",
       "source_location": "L20",
+      "id": "models_company_company_associate",
       "community": 24,
-      "norm_label": ".associate()",
-      "id": "models_company_company_associate"
+      "norm_label": ".associate()"
     },
     {
       "label": "HsnSac.ts",
       "file_type": "code",
       "source_file": "src/database/models/HsnSac.ts",
       "source_location": "L1",
+      "id": "models_hsnsac",
       "community": 26,
-      "norm_label": "hsnsac.ts",
-      "id": "models_hsnsac"
+      "norm_label": "hsnsac.ts"
     },
     {
       "label": "HsnSac",
       "file_type": "code",
       "source_file": "src/database/models/HsnSac.ts",
       "source_location": "L4",
+      "id": "models_hsnsac_hsnsac",
       "community": 26,
-      "norm_label": "hsnsac",
-      "id": "models_hsnsac_hsnsac"
+      "norm_label": "hsnsac"
     },
     {
       "label": ".associate()",
       "file_type": "code",
       "source_file": "src/database/models/HsnSac.ts",
       "source_location": "L18",
+      "id": "models_hsnsac_hsnsac_associate",
       "community": 26,
-      "norm_label": ".associate()",
-      "id": "models_hsnsac_hsnsac_associate"
+      "norm_label": ".associate()"
     },
     {
       "label": "Salt.ts",
       "file_type": "code",
       "source_file": "src/database/models/Salt.ts",
       "source_location": "L1",
+      "id": "models_salt",
       "community": 32,
-      "norm_label": "salt.ts",
-      "id": "models_salt"
+      "norm_label": "salt.ts"
     },
     {
       "label": "Salt",
       "file_type": "code",
       "source_file": "src/database/models/Salt.ts",
       "source_location": "L4",
+      "id": "models_salt_salt",
       "community": 32,
-      "norm_label": "salt",
-      "id": "models_salt_salt"
+      "norm_label": "salt"
     },
     {
       "label": ".associate()",
       "file_type": "code",
       "source_file": "src/database/models/Salt.ts",
       "source_location": "L11",
+      "id": "models_salt_salt_associate",
       "community": 32,
-      "norm_label": ".associate()",
-      "id": "models_salt_salt_associate"
+      "norm_label": ".associate()"
     },
     {
       "label": "deleteDoctor()",
       "file_type": "code",
       "source_file": "src/modules/doctors/doctorController.ts",
       "source_location": "L83",
+      "id": "doctors_doctorcontroller_deletedoctor",
       "community": 10,
-      "norm_label": "deletedoctor()",
-      "id": "doctors_doctorcontroller_deletedoctor"
+      "norm_label": "deletedoctor()"
     },
     {
       "label": "companyController.ts",
       "file_type": "code",
       "source_file": "src/modules/inventory/companyController.ts",
       "source_location": "L1",
+      "id": "inventory_companycontroller",
       "community": 14,
-      "norm_label": "companycontroller.ts",
-      "id": "inventory_companycontroller"
+      "norm_label": "companycontroller.ts"
     },
     {
       "label": "db",
       "file_type": "code",
       "source_file": "src/modules/inventory/companyController.ts",
       "source_location": "L3",
+      "id": "inventory_companycontroller_db",
       "community": 14,
-      "norm_label": "db",
-      "id": "inventory_companycontroller_db"
+      "norm_label": "db"
     },
     {
       "label": "getCompanies()",
       "file_type": "code",
       "source_file": "src/modules/inventory/companyController.ts",
       "source_location": "L6",
+      "id": "inventory_companycontroller_getcompanies",
       "community": 14,
-      "norm_label": "getcompanies()",
-      "id": "inventory_companycontroller_getcompanies"
+      "norm_label": "getcompanies()"
     },
     {
       "label": "createCompany()",
       "file_type": "code",
       "source_file": "src/modules/inventory/companyController.ts",
       "source_location": "L18",
+      "id": "inventory_companycontroller_createcompany",
       "community": 14,
-      "norm_label": "createcompany()",
-      "id": "inventory_companycontroller_createcompany"
+      "norm_label": "createcompany()"
     },
     {
       "label": "updateCompany()",
       "file_type": "code",
       "source_file": "src/modules/inventory/companyController.ts",
       "source_location": "L45",
+      "id": "inventory_companycontroller_updatecompany",
       "community": 14,
-      "norm_label": "updatecompany()",
-      "id": "inventory_companycontroller_updatecompany"
+      "norm_label": "updatecompany()"
     },
     {
       "label": "deleteCompany()",
       "file_type": "code",
       "source_file": "src/modules/inventory/companyController.ts",
       "source_location": "L58",
+      "id": "inventory_companycontroller_deletecompany",
       "community": 14,
-      "norm_label": "deletecompany()",
-      "id": "inventory_companycontroller_deletecompany"
+      "norm_label": "deletecompany()"
     },
     {
       "label": "companyRoutes.ts",
       "file_type": "code",
       "source_file": "src/modules/inventory/companyRoutes.ts",
       "source_location": "L1",
+      "id": "inventory_companyroutes",
       "community": 14,
-      "norm_label": "companyroutes.ts",
-      "id": "inventory_companyroutes"
+      "norm_label": "companyroutes.ts"
     },
     {
       "label": "router",
       "file_type": "code",
       "source_file": "src/modules/inventory/companyRoutes.ts",
       "source_location": "L6",
+      "id": "inventory_companyroutes_router",
       "community": 14,
-      "norm_label": "router",
-      "id": "inventory_companyroutes_router"
+      "norm_label": "router"
     },
     {
       "label": "hsnSacController.ts",
       "file_type": "code",
       "source_file": "src/modules/inventory/hsnSacController.ts",
       "source_location": "L1",
+      "id": "inventory_hsnsaccontroller",
       "community": 15,
-      "norm_label": "hsnsaccontroller.ts",
-      "id": "inventory_hsnsaccontroller"
+      "norm_label": "hsnsaccontroller.ts"
     },
     {
       "label": "db",
       "file_type": "code",
       "source_file": "src/modules/inventory/hsnSacController.ts",
       "source_location": "L3",
+      "id": "inventory_hsnsaccontroller_db",
       "community": 15,
-      "norm_label": "db",
-      "id": "inventory_hsnsaccontroller_db"
+      "norm_label": "db"
     },
     {
       "label": "getHsnSac()",
       "file_type": "code",
       "source_file": "src/modules/inventory/hsnSacController.ts",
       "source_location": "L6",
+      "id": "inventory_hsnsaccontroller_gethsnsac",
       "community": 15,
-      "norm_label": "gethsnsac()",
-      "id": "inventory_hsnsaccontroller_gethsnsac"
+      "norm_label": "gethsnsac()"
     },
     {
       "label": "createHsnSac()",
       "file_type": "code",
       "source_file": "src/modules/inventory/hsnSacController.ts",
       "source_location": "L18",
+      "id": "inventory_hsnsaccontroller_createhsnsac",
       "community": 15,
-      "norm_label": "createhsnsac()",
-      "id": "inventory_hsnsaccontroller_createhsnsac"
+      "norm_label": "createhsnsac()"
     },
     {
       "label": "updateHsnSac()",
       "file_type": "code",
       "source_file": "src/modules/inventory/hsnSacController.ts",
       "source_location": "L38",
+      "id": "inventory_hsnsaccontroller_updatehsnsac",
       "community": 15,
-      "norm_label": "updatehsnsac()",
-      "id": "inventory_hsnsaccontroller_updatehsnsac"
+      "norm_label": "updatehsnsac()"
     },
     {
       "label": "deleteHsnSac()",
       "file_type": "code",
       "source_file": "src/modules/inventory/hsnSacController.ts",
       "source_location": "L51",
+      "id": "inventory_hsnsaccontroller_deletehsnsac",
       "community": 15,
-      "norm_label": "deletehsnsac()",
-      "id": "inventory_hsnsaccontroller_deletehsnsac"
+      "norm_label": "deletehsnsac()"
     },
     {
       "label": "hsnSacRoutes.ts",
       "file_type": "code",
       "source_file": "src/modules/inventory/hsnSacRoutes.ts",
       "source_location": "L1",
+      "id": "inventory_hsnsacroutes",
       "community": 15,
-      "norm_label": "hsnsacroutes.ts",
-      "id": "inventory_hsnsacroutes"
+      "norm_label": "hsnsacroutes.ts"
     },
     {
       "label": "router",
       "file_type": "code",
       "source_file": "src/modules/inventory/hsnSacRoutes.ts",
       "source_location": "L6",
+      "id": "inventory_hsnsacroutes_router",
       "community": 15,
-      "norm_label": "router",
-      "id": "inventory_hsnsacroutes_router"
+      "norm_label": "router"
     },
     {
       "label": "saltController.ts",
       "file_type": "code",
       "source_file": "src/modules/inventory/saltController.ts",
       "source_location": "L1",
+      "id": "inventory_saltcontroller",
       "community": 0,
-      "norm_label": "saltcontroller.ts",
-      "id": "inventory_saltcontroller"
+      "norm_label": "saltcontroller.ts"
     },
     {
       "label": "db",
       "file_type": "code",
       "source_file": "src/modules/inventory/saltController.ts",
       "source_location": "L3",
+      "id": "inventory_saltcontroller_db",
       "community": 0,
-      "norm_label": "db",
-      "id": "inventory_saltcontroller_db"
+      "norm_label": "db"
     },
     {
       "label": "getSalts()",
       "file_type": "code",
       "source_file": "src/modules/inventory/saltController.ts",
       "source_location": "L6",
+      "id": "inventory_saltcontroller_getsalts",
       "community": 0,
-      "norm_label": "getsalts()",
-      "id": "inventory_saltcontroller_getsalts"
+      "norm_label": "getsalts()"
     },
     {
       "label": "createSalt()",
       "file_type": "code",
       "source_file": "src/modules/inventory/saltController.ts",
       "source_location": "L18",
+      "id": "inventory_saltcontroller_createsalt",
       "community": 0,
-      "norm_label": "createsalt()",
-      "id": "inventory_saltcontroller_createsalt"
+      "norm_label": "createsalt()"
     },
     {
       "label": "updateSalt()",
       "file_type": "code",
       "source_file": "src/modules/inventory/saltController.ts",
       "source_location": "L31",
+      "id": "inventory_saltcontroller_updatesalt",
       "community": 0,
-      "norm_label": "updatesalt()",
-      "id": "inventory_saltcontroller_updatesalt"
+      "norm_label": "updatesalt()"
     },
     {
       "label": "deleteSalt()",
       "file_type": "code",
       "source_file": "src/modules/inventory/saltController.ts",
       "source_location": "L44",
+      "id": "inventory_saltcontroller_deletesalt",
       "community": 0,
-      "norm_label": "deletesalt()",
-      "id": "inventory_saltcontroller_deletesalt"
+      "norm_label": "deletesalt()"
     },
     {
       "label": "saltRoutes.ts",
       "file_type": "code",
       "source_file": "src/modules/inventory/saltRoutes.ts",
       "source_location": "L1",
+      "id": "inventory_saltroutes",
       "community": 0,
-      "norm_label": "saltroutes.ts",
-      "id": "inventory_saltroutes"
+      "norm_label": "saltroutes.ts"
     },
     {
       "label": "router",
       "file_type": "code",
       "source_file": "src/modules/inventory/saltRoutes.ts",
       "source_location": "L6",
+      "id": "inventory_saltroutes_router",
       "community": 0,
-      "norm_label": "router",
-      "id": "inventory_saltroutes_router"
+      "norm_label": "router"
     },
     {
       "label": "sync-inventory.js",
       "file_type": "code",
       "source_file": "sync-inventory.js",
       "source_location": "L1",
+      "id": "sync_inventory",
       "community": 3,
-      "norm_label": "sync-inventory.js",
-      "id": "sync_inventory"
+      "norm_label": "sync-inventory.js"
     },
     {
       "label": "path",
       "file_type": "code",
       "source_file": "sync-inventory.js",
       "source_location": "L1",
+      "id": "sync_inventory_path",
       "community": 3,
-      "norm_label": "path",
-      "id": "sync_inventory_path"
+      "norm_label": "path"
     },
     {
       "label": "db",
       "file_type": "code",
       "source_file": "sync-inventory.js",
       "source_location": "L6",
+      "id": "sync_inventory_db",
       "community": 3,
-      "norm_label": "db",
-      "id": "sync_inventory_db"
+      "norm_label": "db"
     },
     {
       "label": "allowJs",
       "file_type": "code",
       "source_file": "tsconfig.json",
       "source_location": "L15",
+      "id": "tsconfig_compileroptions_allowjs",
       "community": 7,
-      "norm_label": "allowjs",
-      "id": "tsconfig_compileroptions_allowjs"
+      "norm_label": "allowjs"
     }
   ],
   "links": [
@@ -3795,9 +3795,9 @@
       "source_file": "package.json",
       "source_location": "L4",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_engines"
+      "target": "package_engines",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4075,9 +4075,9 @@
       "source_file": "package.json",
       "source_location": "L35",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "package_devdependencies",
-      "target": "package_devdependencies_types_node"
+      "target": "package_devdependencies_types_node",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4085,9 +4085,9 @@
       "source_file": "package.json",
       "source_location": "L39",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "package_devdependencies",
-      "target": "package_devdependencies_typescript"
+      "target": "package_devdependencies_typescript",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -4205,9 +4205,9 @@
       "source_file": "src/app.ts",
       "source_location": "L17",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "inventory_companyroutes"
+      "target": "inventory_companyroutes",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -4216,9 +4216,9 @@
       "source_file": "src/app.ts",
       "source_location": "L19",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "inventory_hsnsacroutes"
+      "target": "inventory_hsnsacroutes",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -4238,9 +4238,9 @@
       "source_file": "src/app.ts",
       "source_location": "L18",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "inventory_saltroutes"
+      "target": "inventory_saltroutes",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -4334,9 +4334,9 @@
       "source_file": "src/config/config.json",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_config_config_json_config_config",
-      "target": "src_config_config_json_config_config_development"
+      "target": "src_config_config_json_config_config_development",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4404,9 +4404,9 @@
       "source_file": "src/config/config.json",
       "source_location": "L9",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_config_config_json_config_config",
-      "target": "src_config_config_json_config_config_test"
+      "target": "src_config_config_json_config_config_test",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4524,9 +4524,9 @@
       "source_file": "src/config/config.json",
       "source_location": "L16",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_config_config_json_config_config",
-      "target": "src_config_config_json_config_config_production"
+      "target": "src_config_config_json_config_config_production",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4599,9 +4599,9 @@
       "source_file": "src/database/models/Company.ts",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "models_company",
-      "target": "config_database"
+      "target": "config_database",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -4632,9 +4632,9 @@
       "source_file": "src/database/models/HsnSac.ts",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "models_hsnsac",
-      "target": "config_database"
+      "target": "config_database",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -4775,9 +4775,9 @@
       "source_file": "src/database/models/Salt.ts",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "models_salt",
-      "target": "config_database"
+      "target": "config_database",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -5574,9 +5574,9 @@
       "source_file": "src/modules/inventory/companyController.ts",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "inventory_companycontroller",
-      "target": "models_index"
+      "target": "models_index",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -5585,9 +5585,9 @@
       "source_file": "src/modules/inventory/hsnSacController.ts",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "inventory_hsnsaccontroller",
-      "target": "models_index"
+      "target": "models_index",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -5607,9 +5607,9 @@
       "source_file": "src/modules/inventory/saltController.ts",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "inventory_saltcontroller",
-      "target": "models_index"
+      "target": "models_index",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -5733,9 +5733,9 @@
       "source_file": "sync-inventory.js",
       "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "sync_inventory",
-      "target": "models_index"
+      "target": "models_index",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -5907,9 +5907,9 @@
       "source_file": "src/modules/inventory/companyController.ts",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "inventory_companycontroller",
-      "target": "middlewares_authmiddleware"
+      "target": "middlewares_authmiddleware",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -5918,9 +5918,9 @@
       "source_file": "src/modules/inventory/companyRoutes.ts",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "inventory_companyroutes",
-      "target": "middlewares_authmiddleware"
+      "target": "middlewares_authmiddleware",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -5929,9 +5929,9 @@
       "source_file": "src/modules/inventory/hsnSacController.ts",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "inventory_hsnsaccontroller",
-      "target": "middlewares_authmiddleware"
+      "target": "middlewares_authmiddleware",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -5940,9 +5940,9 @@
       "source_file": "src/modules/inventory/hsnSacRoutes.ts",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "inventory_hsnsacroutes",
-      "target": "middlewares_authmiddleware"
+      "target": "middlewares_authmiddleware",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -5973,9 +5973,9 @@
       "source_file": "src/modules/inventory/saltController.ts",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "inventory_saltcontroller",
-      "target": "middlewares_authmiddleware"
+      "target": "middlewares_authmiddleware",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -5984,9 +5984,9 @@
       "source_file": "src/modules/inventory/saltRoutes.ts",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "inventory_saltroutes",
-      "target": "middlewares_authmiddleware"
+      "target": "middlewares_authmiddleware",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -6203,9 +6203,9 @@
       "source_file": "src/modules/inventory/companyController.ts",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "inventory_companycontroller",
-      "target": "middlewares_authmiddleware_authrequest"
+      "target": "middlewares_authmiddleware_authrequest",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -6214,9 +6214,9 @@
       "source_file": "src/modules/inventory/hsnSacController.ts",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "inventory_hsnsaccontroller",
-      "target": "middlewares_authmiddleware_authrequest"
+      "target": "middlewares_authmiddleware_authrequest",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -6236,9 +6236,9 @@
       "source_file": "src/modules/inventory/saltController.ts",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "inventory_saltcontroller",
-      "target": "middlewares_authmiddleware_authrequest"
+      "target": "middlewares_authmiddleware_authrequest",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -6390,9 +6390,9 @@
       "source_file": "src/modules/inventory/companyRoutes.ts",
       "source_location": "L4",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "inventory_companyroutes",
-      "target": "middlewares_tenantmiddleware"
+      "target": "middlewares_tenantmiddleware",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -6401,9 +6401,9 @@
       "source_file": "src/modules/inventory/hsnSacRoutes.ts",
       "source_location": "L4",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "inventory_hsnsacroutes",
-      "target": "middlewares_tenantmiddleware"
+      "target": "middlewares_tenantmiddleware",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -6423,9 +6423,9 @@
       "source_file": "src/modules/inventory/saltRoutes.ts",
       "source_location": "L4",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "inventory_saltroutes",
-      "target": "middlewares_tenantmiddleware"
+      "target": "middlewares_tenantmiddleware",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -7307,9 +7307,9 @@
       "source_file": "src/modules/doctors/doctorController.ts",
       "source_location": "L83",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "doctors_doctorcontroller",
-      "target": "doctors_doctorcontroller_deletedoctor"
+      "target": "doctors_doctorcontroller_deletedoctor",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7382,9 +7382,9 @@
       "source_file": "src/modules/doctors/doctorRoutes.ts",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "doctors_doctorroutes",
-      "target": "doctors_doctorcontroller_deletedoctor"
+      "target": "doctors_doctorcontroller_deletedoctor",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -8194,9 +8194,9 @@
       "source_file": "tsconfig.json",
       "source_location": "L15",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "tsconfig_compileroptions",
-      "target": "tsconfig_compileroptions_allowjs"
+      "target": "tsconfig_compileroptions_allowjs",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -8444,9 +8444,9 @@
       "source_file": "package.json",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "package_engines",
-      "target": "package_engines_node"
+      "target": "package_engines_node",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -8454,9 +8454,9 @@
       "source_file": "src/database/models/Company.ts",
       "source_location": "L4",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "models_company",
-      "target": "models_company_company"
+      "target": "models_company_company",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -8464,9 +8464,9 @@
       "source_file": "src/database/models/Company.ts",
       "source_location": "L20",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "models_company_company",
-      "target": "models_company_company_associate"
+      "target": "models_company_company_associate",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -8474,9 +8474,9 @@
       "source_file": "src/database/models/HsnSac.ts",
       "source_location": "L4",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "models_hsnsac",
-      "target": "models_hsnsac_hsnsac"
+      "target": "models_hsnsac_hsnsac",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -8484,9 +8484,9 @@
       "source_file": "src/database/models/HsnSac.ts",
       "source_location": "L18",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "models_hsnsac_hsnsac",
-      "target": "models_hsnsac_hsnsac_associate"
+      "target": "models_hsnsac_hsnsac_associate",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -8494,9 +8494,9 @@
       "source_file": "src/database/models/Salt.ts",
       "source_location": "L4",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "models_salt",
-      "target": "models_salt_salt"
+      "target": "models_salt_salt",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -8504,9 +8504,9 @@
       "source_file": "src/database/models/Salt.ts",
       "source_location": "L11",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "models_salt_salt",
-      "target": "models_salt_salt_associate"
+      "target": "models_salt_salt_associate",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -8514,9 +8514,9 @@
       "source_file": "src/modules/inventory/companyController.ts",
       "source_location": "L18",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "inventory_companycontroller",
-      "target": "inventory_companycontroller_createcompany"
+      "target": "inventory_companycontroller_createcompany",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -8524,9 +8524,9 @@
       "source_file": "src/modules/inventory/companyController.ts",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "inventory_companycontroller",
-      "target": "inventory_companycontroller_db"
+      "target": "inventory_companycontroller_db",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -8534,9 +8534,9 @@
       "source_file": "src/modules/inventory/companyController.ts",
       "source_location": "L58",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "inventory_companycontroller",
-      "target": "inventory_companycontroller_deletecompany"
+      "target": "inventory_companycontroller_deletecompany",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -8544,9 +8544,9 @@
       "source_file": "src/modules/inventory/companyController.ts",
       "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "inventory_companycontroller",
-      "target": "inventory_companycontroller_getcompanies"
+      "target": "inventory_companycontroller_getcompanies",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -8554,9 +8554,9 @@
       "source_file": "src/modules/inventory/companyController.ts",
       "source_location": "L45",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "inventory_companycontroller",
-      "target": "inventory_companycontroller_updatecompany"
+      "target": "inventory_companycontroller_updatecompany",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -8565,9 +8565,9 @@
       "source_file": "src/modules/inventory/companyRoutes.ts",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "inventory_companyroutes",
-      "target": "inventory_companycontroller"
+      "target": "inventory_companycontroller",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -8576,9 +8576,9 @@
       "source_file": "src/modules/inventory/companyRoutes.ts",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "inventory_companyroutes",
-      "target": "inventory_companycontroller_getcompanies"
+      "target": "inventory_companycontroller_getcompanies",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -8587,9 +8587,9 @@
       "source_file": "src/modules/inventory/companyRoutes.ts",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "inventory_companyroutes",
-      "target": "inventory_companycontroller_createcompany"
+      "target": "inventory_companycontroller_createcompany",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -8598,9 +8598,9 @@
       "source_file": "src/modules/inventory/companyRoutes.ts",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "inventory_companyroutes",
-      "target": "inventory_companycontroller_updatecompany"
+      "target": "inventory_companycontroller_updatecompany",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -8609,9 +8609,9 @@
       "source_file": "src/modules/inventory/companyRoutes.ts",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "inventory_companyroutes",
-      "target": "inventory_companycontroller_deletecompany"
+      "target": "inventory_companycontroller_deletecompany",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -8619,9 +8619,9 @@
       "source_file": "src/modules/inventory/companyRoutes.ts",
       "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "inventory_companyroutes",
-      "target": "inventory_companyroutes_router"
+      "target": "inventory_companyroutes_router",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -8629,9 +8629,9 @@
       "source_file": "src/modules/inventory/hsnSacController.ts",
       "source_location": "L18",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "inventory_hsnsaccontroller",
-      "target": "inventory_hsnsaccontroller_createhsnsac"
+      "target": "inventory_hsnsaccontroller_createhsnsac",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -8639,9 +8639,9 @@
       "source_file": "src/modules/inventory/hsnSacController.ts",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "inventory_hsnsaccontroller",
-      "target": "inventory_hsnsaccontroller_db"
+      "target": "inventory_hsnsaccontroller_db",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -8649,9 +8649,9 @@
       "source_file": "src/modules/inventory/hsnSacController.ts",
       "source_location": "L51",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "inventory_hsnsaccontroller",
-      "target": "inventory_hsnsaccontroller_deletehsnsac"
+      "target": "inventory_hsnsaccontroller_deletehsnsac",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -8659,9 +8659,9 @@
       "source_file": "src/modules/inventory/hsnSacController.ts",
       "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "inventory_hsnsaccontroller",
-      "target": "inventory_hsnsaccontroller_gethsnsac"
+      "target": "inventory_hsnsaccontroller_gethsnsac",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -8669,9 +8669,9 @@
       "source_file": "src/modules/inventory/hsnSacController.ts",
       "source_location": "L38",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "inventory_hsnsaccontroller",
-      "target": "inventory_hsnsaccontroller_updatehsnsac"
+      "target": "inventory_hsnsaccontroller_updatehsnsac",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -8680,9 +8680,9 @@
       "source_file": "src/modules/inventory/hsnSacRoutes.ts",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "inventory_hsnsacroutes",
-      "target": "inventory_hsnsaccontroller"
+      "target": "inventory_hsnsaccontroller",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -8691,9 +8691,9 @@
       "source_file": "src/modules/inventory/hsnSacRoutes.ts",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "inventory_hsnsacroutes",
-      "target": "inventory_hsnsaccontroller_gethsnsac"
+      "target": "inventory_hsnsaccontroller_gethsnsac",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -8702,9 +8702,9 @@
       "source_file": "src/modules/inventory/hsnSacRoutes.ts",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "inventory_hsnsacroutes",
-      "target": "inventory_hsnsaccontroller_createhsnsac"
+      "target": "inventory_hsnsaccontroller_createhsnsac",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -8713,9 +8713,9 @@
       "source_file": "src/modules/inventory/hsnSacRoutes.ts",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "inventory_hsnsacroutes",
-      "target": "inventory_hsnsaccontroller_updatehsnsac"
+      "target": "inventory_hsnsaccontroller_updatehsnsac",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -8724,9 +8724,9 @@
       "source_file": "src/modules/inventory/hsnSacRoutes.ts",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "inventory_hsnsacroutes",
-      "target": "inventory_hsnsaccontroller_deletehsnsac"
+      "target": "inventory_hsnsaccontroller_deletehsnsac",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -8734,9 +8734,9 @@
       "source_file": "src/modules/inventory/hsnSacRoutes.ts",
       "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "inventory_hsnsacroutes",
-      "target": "inventory_hsnsacroutes_router"
+      "target": "inventory_hsnsacroutes_router",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -8744,9 +8744,9 @@
       "source_file": "src/modules/inventory/saltController.ts",
       "source_location": "L18",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "inventory_saltcontroller",
-      "target": "inventory_saltcontroller_createsalt"
+      "target": "inventory_saltcontroller_createsalt",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -8754,9 +8754,9 @@
       "source_file": "src/modules/inventory/saltController.ts",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "inventory_saltcontroller",
-      "target": "inventory_saltcontroller_db"
+      "target": "inventory_saltcontroller_db",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -8764,9 +8764,9 @@
       "source_file": "src/modules/inventory/saltController.ts",
       "source_location": "L44",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "inventory_saltcontroller",
-      "target": "inventory_saltcontroller_deletesalt"
+      "target": "inventory_saltcontroller_deletesalt",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -8774,9 +8774,9 @@
       "source_file": "src/modules/inventory/saltController.ts",
       "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "inventory_saltcontroller",
-      "target": "inventory_saltcontroller_getsalts"
+      "target": "inventory_saltcontroller_getsalts",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -8784,9 +8784,9 @@
       "source_file": "src/modules/inventory/saltController.ts",
       "source_location": "L31",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "inventory_saltcontroller",
-      "target": "inventory_saltcontroller_updatesalt"
+      "target": "inventory_saltcontroller_updatesalt",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -8795,9 +8795,9 @@
       "source_file": "src/modules/inventory/saltRoutes.ts",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "inventory_saltroutes",
-      "target": "inventory_saltcontroller"
+      "target": "inventory_saltcontroller",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -8806,9 +8806,9 @@
       "source_file": "src/modules/inventory/saltRoutes.ts",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "inventory_saltroutes",
-      "target": "inventory_saltcontroller_getsalts"
+      "target": "inventory_saltcontroller_getsalts",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -8817,9 +8817,9 @@
       "source_file": "src/modules/inventory/saltRoutes.ts",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "inventory_saltroutes",
-      "target": "inventory_saltcontroller_createsalt"
+      "target": "inventory_saltcontroller_createsalt",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -8828,9 +8828,9 @@
       "source_file": "src/modules/inventory/saltRoutes.ts",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "inventory_saltroutes",
-      "target": "inventory_saltcontroller_updatesalt"
+      "target": "inventory_saltcontroller_updatesalt",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -8839,9 +8839,9 @@
       "source_file": "src/modules/inventory/saltRoutes.ts",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "inventory_saltroutes",
-      "target": "inventory_saltcontroller_deletesalt"
+      "target": "inventory_saltcontroller_deletesalt",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -8849,9 +8849,9 @@
       "source_file": "src/modules/inventory/saltRoutes.ts",
       "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "inventory_saltroutes",
-      "target": "inventory_saltroutes_router"
+      "target": "inventory_saltroutes_router",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -8859,9 +8859,9 @@
       "source_file": "sync-inventory.js",
       "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "sync_inventory",
-      "target": "sync_inventory_db"
+      "target": "sync_inventory_db",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -8869,9 +8869,9 @@
       "source_file": "sync-inventory.js",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "sync_inventory",
-      "target": "sync_inventory_path"
+      "target": "sync_inventory_path",
+      "confidence_score": 1.0
     }
   ],
   "hyperedges": [],

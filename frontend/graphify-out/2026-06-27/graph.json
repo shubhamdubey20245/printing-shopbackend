@@ -2137,153 +2137,153 @@
       "file_type": "code",
       "source_file": "src/hooks/useInventoryMasters.ts",
       "source_location": "L1",
+      "id": "hooks_useinventorymasters",
       "community": 4,
-      "norm_label": "useinventorymasters.ts",
-      "id": "hooks_useinventorymasters"
+      "norm_label": "useinventorymasters.ts"
     },
     {
       "label": "useCompanies()",
       "file_type": "code",
       "source_file": "src/hooks/useInventoryMasters.ts",
       "source_location": "L6",
+      "id": "hooks_useinventorymasters_usecompanies",
       "community": 4,
-      "norm_label": "usecompanies()",
-      "id": "hooks_useinventorymasters_usecompanies"
+      "norm_label": "usecompanies()"
     },
     {
       "label": "useCreateCompany()",
       "file_type": "code",
       "source_file": "src/hooks/useInventoryMasters.ts",
       "source_location": "L17",
+      "id": "hooks_useinventorymasters_usecreatecompany",
       "community": 4,
-      "norm_label": "usecreatecompany()",
-      "id": "hooks_useinventorymasters_usecreatecompany"
+      "norm_label": "usecreatecompany()"
     },
     {
       "label": "useUpdateCompany()",
       "file_type": "code",
       "source_file": "src/hooks/useInventoryMasters.ts",
       "source_location": "L30",
+      "id": "hooks_useinventorymasters_useupdatecompany",
       "community": 4,
-      "norm_label": "useupdatecompany()",
-      "id": "hooks_useinventorymasters_useupdatecompany"
+      "norm_label": "useupdatecompany()"
     },
     {
       "label": "useDeleteCompany()",
       "file_type": "code",
       "source_file": "src/hooks/useInventoryMasters.ts",
       "source_location": "L43",
+      "id": "hooks_useinventorymasters_usedeletecompany",
       "community": 4,
-      "norm_label": "usedeletecompany()",
-      "id": "hooks_useinventorymasters_usedeletecompany"
+      "norm_label": "usedeletecompany()"
     },
     {
       "label": "useSalts()",
       "file_type": "code",
       "source_file": "src/hooks/useInventoryMasters.ts",
       "source_location": "L57",
+      "id": "hooks_useinventorymasters_usesalts",
       "community": 4,
-      "norm_label": "usesalts()",
-      "id": "hooks_useinventorymasters_usesalts"
+      "norm_label": "usesalts()"
     },
     {
       "label": "useUpdateSalt()",
       "file_type": "code",
       "source_file": "src/hooks/useInventoryMasters.ts",
       "source_location": "L81",
+      "id": "hooks_useinventorymasters_useupdatesalt",
       "community": 4,
-      "norm_label": "useupdatesalt()",
-      "id": "hooks_useinventorymasters_useupdatesalt"
+      "norm_label": "useupdatesalt()"
     },
     {
       "label": "useDeleteSalt()",
       "file_type": "code",
       "source_file": "src/hooks/useInventoryMasters.ts",
       "source_location": "L94",
+      "id": "hooks_useinventorymasters_usedeletesalt",
       "community": 4,
-      "norm_label": "usedeletesalt()",
-      "id": "hooks_useinventorymasters_usedeletesalt"
+      "norm_label": "usedeletesalt()"
     },
     {
       "label": "useHsnSac()",
       "file_type": "code",
       "source_file": "src/hooks/useInventoryMasters.ts",
       "source_location": "L108",
+      "id": "hooks_useinventorymasters_usehsnsac",
       "community": 4,
-      "norm_label": "usehsnsac()",
-      "id": "hooks_useinventorymasters_usehsnsac"
+      "norm_label": "usehsnsac()"
     },
     {
       "label": "useCreateHsnSac()",
       "file_type": "code",
       "source_file": "src/hooks/useInventoryMasters.ts",
       "source_location": "L119",
+      "id": "hooks_useinventorymasters_usecreatehsnsac",
       "community": 4,
-      "norm_label": "usecreatehsnsac()",
-      "id": "hooks_useinventorymasters_usecreatehsnsac"
+      "norm_label": "usecreatehsnsac()"
     },
     {
       "label": "useUpdateHsnSac()",
       "file_type": "code",
       "source_file": "src/hooks/useInventoryMasters.ts",
       "source_location": "L132",
+      "id": "hooks_useinventorymasters_useupdatehsnsac",
       "community": 4,
-      "norm_label": "useupdatehsnsac()",
-      "id": "hooks_useinventorymasters_useupdatehsnsac"
+      "norm_label": "useupdatehsnsac()"
     },
     {
       "label": "useDeleteHsnSac()",
       "file_type": "code",
       "source_file": "src/hooks/useInventoryMasters.ts",
       "source_location": "L145",
+      "id": "hooks_useinventorymasters_usedeletehsnsac",
       "community": 4,
-      "norm_label": "usedeletehsnsac()",
-      "id": "hooks_useinventorymasters_usedeletehsnsac"
+      "norm_label": "usedeletehsnsac()"
     },
     {
       "label": "ActiveTab",
       "file_type": "code",
       "source_file": "src/pages/Inventory.tsx",
       "source_location": "L19",
+      "id": "pages_inventory_activetab",
       "community": 4,
-      "norm_label": "activetab",
-      "id": "pages_inventory_activetab"
+      "norm_label": "activetab"
     },
     {
       "label": "PharmaCompany",
       "file_type": "code",
       "source_file": "src/types/index.ts",
       "source_location": "L2",
+      "id": "types_index_pharmacompany",
       "community": 4,
-      "norm_label": "pharmacompany",
-      "id": "types_index_pharmacompany"
+      "norm_label": "pharmacompany"
     },
     {
       "label": "SaltComposition",
       "file_type": "code",
       "source_file": "src/types/index.ts",
       "source_location": "L16",
+      "id": "types_index_saltcomposition",
       "community": 4,
-      "norm_label": "saltcomposition",
-      "id": "types_index_saltcomposition"
+      "norm_label": "saltcomposition"
     },
     {
       "label": "HsnSacMaster",
       "file_type": "code",
       "source_file": "src/types/index.ts",
       "source_location": "L21",
+      "id": "types_index_hsnsacmaster",
       "community": 4,
-      "norm_label": "hsnsacmaster",
-      "id": "types_index_hsnsacmaster"
+      "norm_label": "hsnsacmaster"
     },
     {
       "label": "CategoryMaster",
       "file_type": "code",
       "source_file": "src/types/index.ts",
       "source_location": "L33",
+      "id": "types_index_categorymaster",
       "community": 2,
-      "norm_label": "categorymaster",
-      "id": "types_index_categorymaster"
+      "norm_label": "categorymaster"
     }
   ],
   "links": [
@@ -3579,9 +3579,9 @@
       "source_file": "src/pages/Doctors.tsx",
       "source_location": "L9",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "pages_doctors",
-      "target": "common_modal"
+      "target": "common_modal",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -3763,9 +3763,9 @@
       "source_file": "src/components/inventory/MedicineForm.tsx",
       "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "inventory_medicineform",
-      "target": "hooks_usecategories_usecreatecategory"
+      "target": "hooks_usecategories_usecreatecategory",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -3774,9 +3774,9 @@
       "source_file": "src/components/inventory/MedicineForm.tsx",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "inventory_medicineform",
-      "target": "hooks_useinventorymasters"
+      "target": "hooks_useinventorymasters",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -3840,9 +3840,9 @@
       "source_file": "src/components/inventory/MedicineForm.tsx",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "inventory_medicineform",
-      "target": "hooks_usetoast_usetoast"
+      "target": "hooks_usetoast_usetoast",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4669,9 +4669,9 @@
       "source_file": "src/hooks/useInventoryMasters.ts",
       "source_location": "L68",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "hooks_useinventorymasters",
-      "target": "hooks_usebilling_usecreatesale"
+      "target": "hooks_usebilling_usecreatesale",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -4722,9 +4722,9 @@
       "source_file": "src/pages/Inventory.tsx",
       "source_location": "L12",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "pages_inventory",
-      "target": "hooks_usecategories_usecreatecategory"
+      "target": "hooks_usecategories_usecreatecategory",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -4733,9 +4733,9 @@
       "source_file": "src/pages/Inventory.tsx",
       "source_location": "L12",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "pages_inventory",
-      "target": "hooks_usecategories_usedeletecategory"
+      "target": "hooks_usecategories_usedeletecategory",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -5624,9 +5624,9 @@
       "source_file": "src/pages/Inventory.tsx",
       "source_location": "L11",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "pages_inventory",
-      "target": "hooks_useinventorymasters"
+      "target": "hooks_useinventorymasters",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -5723,9 +5723,9 @@
       "source_file": "src/pages/Inventory.tsx",
       "source_location": "L11",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "pages_inventory",
-      "target": "hooks_useinventorymasters_useupdatecompany"
+      "target": "hooks_useinventorymasters_useupdatecompany",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5733,9 +5733,9 @@
       "source_file": "src/pages/Inventory.tsx",
       "source_location": "L19",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "pages_inventory",
-      "target": "pages_inventory_activetab"
+      "target": "pages_inventory_activetab",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -5755,9 +5755,9 @@
       "source_file": "src/pages/Inventory.tsx",
       "source_location": "L8",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "pages_inventory",
-      "target": "types_index_hsnsacmaster"
+      "target": "types_index_hsnsacmaster",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -5777,9 +5777,9 @@
       "source_file": "src/pages/Inventory.tsx",
       "source_location": "L8",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "pages_inventory",
-      "target": "types_index_pharmacompany"
+      "target": "types_index_pharmacompany",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -5788,9 +5788,9 @@
       "source_file": "src/pages/Inventory.tsx",
       "source_location": "L8",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "pages_inventory",
-      "target": "types_index_saltcomposition"
+      "target": "types_index_saltcomposition",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -6262,9 +6262,9 @@
       "source_file": "src/hooks/useInventoryMasters.ts",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "hooks_useinventorymasters",
-      "target": "types_index"
+      "target": "types_index",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -6323,9 +6323,9 @@
       "source_file": "src/types/index.ts",
       "source_location": "L33",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "types_index",
-      "target": "types_index_categorymaster"
+      "target": "types_index_categorymaster",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -6363,9 +6363,9 @@
       "source_file": "src/types/index.ts",
       "source_location": "L21",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "types_index",
-      "target": "types_index_hsnsacmaster"
+      "target": "types_index_hsnsacmaster",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -6393,9 +6393,9 @@
       "source_file": "src/types/index.ts",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "types_index",
-      "target": "types_index_pharmacompany"
+      "target": "types_index_pharmacompany",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -6433,9 +6433,9 @@
       "source_file": "src/types/index.ts",
       "source_location": "L16",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "types_index",
-      "target": "types_index_saltcomposition"
+      "target": "types_index_saltcomposition",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7007,9 +7007,9 @@
       "source_file": "src/hooks/useInventoryMasters.ts",
       "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "hooks_useinventorymasters",
-      "target": "hooks_useinventorymasters_usecompanies"
+      "target": "hooks_useinventorymasters_usecompanies",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7017,9 +7017,9 @@
       "source_file": "src/hooks/useInventoryMasters.ts",
       "source_location": "L17",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "hooks_useinventorymasters",
-      "target": "hooks_useinventorymasters_usecreatecompany"
+      "target": "hooks_useinventorymasters_usecreatecompany",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7027,9 +7027,9 @@
       "source_file": "src/hooks/useInventoryMasters.ts",
       "source_location": "L119",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "hooks_useinventorymasters",
-      "target": "hooks_useinventorymasters_usecreatehsnsac"
+      "target": "hooks_useinventorymasters_usecreatehsnsac",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7037,9 +7037,9 @@
       "source_file": "src/hooks/useInventoryMasters.ts",
       "source_location": "L43",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "hooks_useinventorymasters",
-      "target": "hooks_useinventorymasters_usedeletecompany"
+      "target": "hooks_useinventorymasters_usedeletecompany",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7047,9 +7047,9 @@
       "source_file": "src/hooks/useInventoryMasters.ts",
       "source_location": "L145",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "hooks_useinventorymasters",
-      "target": "hooks_useinventorymasters_usedeletehsnsac"
+      "target": "hooks_useinventorymasters_usedeletehsnsac",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7057,9 +7057,9 @@
       "source_file": "src/hooks/useInventoryMasters.ts",
       "source_location": "L94",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "hooks_useinventorymasters",
-      "target": "hooks_useinventorymasters_usedeletesalt"
+      "target": "hooks_useinventorymasters_usedeletesalt",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7067,9 +7067,9 @@
       "source_file": "src/hooks/useInventoryMasters.ts",
       "source_location": "L108",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "hooks_useinventorymasters",
-      "target": "hooks_useinventorymasters_usehsnsac"
+      "target": "hooks_useinventorymasters_usehsnsac",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7077,9 +7077,9 @@
       "source_file": "src/hooks/useInventoryMasters.ts",
       "source_location": "L57",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "hooks_useinventorymasters",
-      "target": "hooks_useinventorymasters_usesalts"
+      "target": "hooks_useinventorymasters_usesalts",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7087,9 +7087,9 @@
       "source_file": "src/hooks/useInventoryMasters.ts",
       "source_location": "L30",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "hooks_useinventorymasters",
-      "target": "hooks_useinventorymasters_useupdatecompany"
+      "target": "hooks_useinventorymasters_useupdatecompany",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7097,9 +7097,9 @@
       "source_file": "src/hooks/useInventoryMasters.ts",
       "source_location": "L132",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "hooks_useinventorymasters",
-      "target": "hooks_useinventorymasters_useupdatehsnsac"
+      "target": "hooks_useinventorymasters_useupdatehsnsac",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7107,9 +7107,9 @@
       "source_file": "src/hooks/useInventoryMasters.ts",
       "source_location": "L81",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "hooks_useinventorymasters",
-      "target": "hooks_useinventorymasters_useupdatesalt"
+      "target": "hooks_useinventorymasters_useupdatesalt",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -7118,9 +7118,9 @@
       "source_file": "src/hooks/useInventoryMasters.ts",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "hooks_useinventorymasters",
-      "target": "types_index_hsnsacmaster"
+      "target": "types_index_hsnsacmaster",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -7129,9 +7129,9 @@
       "source_file": "src/hooks/useInventoryMasters.ts",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "hooks_useinventorymasters",
-      "target": "types_index_pharmacompany"
+      "target": "types_index_pharmacompany",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -7140,9 +7140,9 @@
       "source_file": "src/hooks/useInventoryMasters.ts",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "hooks_useinventorymasters",
-      "target": "types_index_saltcomposition"
+      "target": "types_index_saltcomposition",
+      "confidence_score": 1.0
     }
   ],
   "hyperedges": [],

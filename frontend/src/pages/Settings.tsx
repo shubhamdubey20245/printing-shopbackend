@@ -5,7 +5,7 @@ import api from '@/lib/api'
 
 export default function Settings() {
   const [activeSection, setActiveSection] = useState('business')
-  const { isDark, toggleDark } = useAppStore()
+  const { isDark, toggleDark, themeColor, setThemeColor } = useAppStore()
   
   const [isSaving, setIsSaving] = useState(false)
   const [profile, setProfile] = useState({
@@ -117,12 +117,37 @@ export default function Settings() {
                     <p className="font-bold mb-1" style={{ color: 'var(--text-primary)' }}>Theme Color</p>
                     <p className="text-xs" style={{ color: 'var(--text-muted)' }}>Select your primary brand color.</p>
                   </div>
-                  <div className="flex gap-3">
-                    {['#6366f1', '#8b5cf6', '#3b82f6', '#10b981', '#f43f5e', '#f59e0b'].map(color => (
-                      <button key={color} className={`w-10 h-10 rounded-full flex items-center justify-center shadow-sm hover:scale-110 transition-transform ${color === '#6366f1' ? 'ring-2 ring-offset-2 dark:ring-offset-[#111118] ring-primary-500' : ''}`} style={{ backgroundColor: color }}>
-                        {color === '#6366f1' && <div className="w-2 h-2 bg-white rounded-full"></div>}
-                      </button>
-                    ))}
+                  <div className="flex gap-3 flex-wrap">
+                    {[
+                      { color: '#6366f1', label: 'Indigo' },
+                      { color: '#8b5cf6', label: 'Violet' },
+                      { color: '#3b82f6', label: 'Blue' },
+                      { color: '#10b981', label: 'Emerald' },
+                      { color: '#f43f5e', label: 'Rose' },
+                      { color: '#f59e0b', label: 'Amber' },
+                      { color: '#06b6d4', label: 'Cyan' },
+                      { color: '#ec4899', label: 'Pink' },
+                    ].map(({ color, label }) => {
+                      const isSelected = themeColor === color
+                      return (
+                        <button
+                          key={color}
+                          title={label}
+                          onClick={() => setThemeColor(color)}
+                          className={`w-10 h-10 rounded-full flex items-center justify-center shadow-sm hover:scale-110 transition-all duration-200 ${
+                            isSelected
+                              ? 'ring-2 ring-offset-2 dark:ring-offset-[#111118] scale-110'
+                              : 'opacity-80 hover:opacity-100'
+                          }`}
+                          style={{
+                            backgroundColor: color,
+                            ...(isSelected ? { outline: `2px solid ${color}`, outlineOffset: '3px' } : {})
+                          }}
+                        >
+                          {isSelected && <div className="w-2.5 h-2.5 bg-white rounded-full shadow" />}
+                        </button>
+                      )
+                    })}
                   </div>
                 </div>
               </div>

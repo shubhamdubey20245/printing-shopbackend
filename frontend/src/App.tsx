@@ -1,5 +1,7 @@
+import { useEffect } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
+import { useAppStore, applyThemeColor } from '@/store/useAppStore'
 import Layout from '@/components/layout/Layout'
 import Dashboard from '@/pages/Dashboard'
 import Billing from '@/pages/Billing'
@@ -25,6 +27,12 @@ const queryClient = new QueryClient({
 })
 
 export default function App() {
+  const themeColor = useAppStore((s) => s.themeColor)
+
+  useEffect(() => {
+    applyThemeColor(themeColor ?? '#6366f1')
+  }, [themeColor])
+
   return (
     <QueryClientProvider client={queryClient}>
       <BrowserRouter>
